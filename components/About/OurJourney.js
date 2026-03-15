@@ -6,7 +6,7 @@ export default function OurJourney() {
 			<section className="w-full py-16 px-4 md:px-0 bg-linear-to-br from-white via-yellow-50 to-gray-100 font-sans">
 				<div className="max-w-5xl mx-auto text-center mb-12">
 					<h2 className="text-4xl md:text-5xl font-extrabold text-yellow-500 mb-4 drop-shadow-lg">Our Journey</h2>
-					<p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-6 font-medium">From humble beginnings to a beacon of hope, Adeniran Foundation’s journey is a story of passion, resilience, and impact. Every milestone reflects our commitment to empowering lives and building stronger communities.</p>
+					   <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-6 font-medium">From humble beginnings to a beacon of hope, Othniel Foundation’s journey is a story of passion, resilience, and impact. Every milestone reflects our commitment to empowering lives and building stronger communities.</p>
 				</div>
 				{/* Timeline */}
 				<div className="relative max-w-4xl mx-auto">
@@ -19,7 +19,7 @@ export default function OurJourney() {
 							</div>
 							<div className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 flex-1">
 								<h3 className="text-xl font-bold text-yellow-600 mb-2">2009: Foundation Established</h3>
-								<p className="text-gray-700">Adeniran Foundation was born out of a vision to uplift the underserved, starting with grassroots education and health programs in local communities.</p>
+								   <p className="text-gray-700">Othniel Foundation was born out of a vision to uplift the underserved, starting with grassroots education and health programs in local communities.</p>
 							</div>
 						</div>
 						{/* Timeline Item 2 */}
@@ -49,7 +49,7 @@ export default function OurJourney() {
 							</div>
 							<div className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 flex-1">
 								<h3 className="text-xl font-bold text-gray-700 mb-2">2024: Looking Ahead</h3>
-								<p className="text-gray-700">Today, Adeniran Foundation continues to innovate, inspire, and expand—driven by a vision of a brighter, more equitable future for all.</p>
+								   <p className="text-gray-700">Today, Othniel Foundation continues to innovate, inspire, and expand—driven by a vision of a brighter, more equitable future for all.</p>
 							</div>
 						</div>
 					</div>
@@ -60,47 +60,47 @@ export default function OurJourney() {
 			<section className="w-full py-16 px-4 md:px-0 bg-white font-sans">
 				<div className="max-w-6xl mx-auto text-center mb-10">
 					<h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-4 drop-shadow-lg">Gallery</h2>
-					<p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-6 font-medium">A glimpse into our impact—explore moments of hope, change, and community from Adeniran Foundation’s journey.</p>
+					   <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-6 font-medium">A glimpse into our impact—explore moments of hope, change, and community from Othniel Foundation’s journey.</p>
 				</div>
 				<div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 					{/* Gallery Item 1 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-yellow-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-600999260-612x612.jpg" alt="School Outreach" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/images/photo15.jpg" alt="School Outreach" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-yellow-600">School Outreach</h3>
 						</div>
 					</div>
 					{/* Gallery Item 2 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-orange-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-803141126-612x612.jpg" alt="Health Mission" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/images/Health.jpg" alt="Health Mission" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-orange-500">Health Mission</h3>
 						</div>
 					</div>
 					{/* Gallery Item 3 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-red-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-640305394-612x612.jpg" alt="Community Event" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/images/community.jpg" alt="Community Event" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-red-500">Community Event</h3>
 						</div>
 					</div>
 					{/* Gallery Item 4 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-yellow-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-1343800417-612x612.jpg" alt="Youth Empowerment" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/images/youth.jpg" alt="Youth Empowerment" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-yellow-600">Youth Empowerment</h3>
 						</div>
 					</div>
 					{/* Gallery Item 5 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-orange-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-474234518-612x612.webp" alt="Women’s Initiative" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/images/women.jpg" alt="Women’s Initiative" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-orange-500">Women’s Initiative</h3>
 						</div>
 					</div>
 					{/* Gallery Item 6 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-red-100 hover:scale-105 transition-transform duration-200">
-						<Image src="/images/istockphoto-1222209041-612x612.jpg" alt="Celebration Day" width={400} height={300} className="object-cover w-full h-48" />
+						<Image src="/outreach/picture8.jpg" alt="Celebration Day" width={400} height={300} className="object-cover w-full h-48" />
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-red-500">Celebration Day</h3>
 						</div>

@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaPhone, FaEnvelope, FaBars, FaTimes, FaHardHat } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 /* ============================================================
    NAVIGATION LINKS
@@ -18,6 +19,7 @@ const navLinks = [
   { name: "About", href: "/about" },
   { name: "Blog", href: "/blog" },
   { name: "Programs", href: "/programs" },
+  { name: "Gallery", href: "/gallery" },
   { name: "Get Help", href: "/gethelp" },
   { name: "Contact", href: "/contact" },
 ];
@@ -27,7 +29,7 @@ const navLinks = [
    ============================================================ */
 const contactInfo = {
   phone: "+234 800 123 4567",
-  email: "info@adeniranfoundation.com",
+  email: "othnielsfoundation@gmail.com",
 };
 
 /* ============================================================
@@ -96,14 +98,21 @@ export default function Navbar() {
 
             {/* ===== LOGO ===== */}
             <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
-              {/* Logo Icon */}
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-yellow-500 rounded-lg flex items-center justify-center group-hover:bg-yellow-400 transition-colors">
-                <FaHardHat className="text-black text-lg sm:text-xl" />
+              {/* Logo Image */}
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden flex items-center justify-center bg-white">
+                <Image
+                  src="/images/logo.jpg"
+                  alt="Othniels Foundation Logo"
+                  width={48}
+                  height={48}
+                  className="object-contain w-full h-full"
+                  priority
+                />
               </div>
               {/* Logo Text */}
               <div className="flex flex-col">
                 <span className="text-lg sm:text-xl font-bold text-black leading-tight">
-                  Adeniran
+                  Othniels Foundation
                 </span>
                 <span className="text-xs sm:text-sm font-medium text-gray-500 leading-tight">
                   Foundation

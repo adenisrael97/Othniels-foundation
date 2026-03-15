@@ -53,15 +53,15 @@ function InfoCards() {
             {/* Image Card */}
             <div className="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto bg-white rounded-2xl shadow-lg p-4 md:p-6 flex flex-col items-center">
                 <Image
-                    src="/images/istockphoto-640305394-612x612.jpg"
+                    src="/images/photo12.jpg"
                     alt="Support"
                     width={612}
                     height={160}
-                    className="rounded-xl w-full h-40 object-cover mb-2"
-                    style={{ width: '100%', height: '160px', objectFit: 'cover' }}
+					className="rounded-xl w-full object-cover mb-2"
+					style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                 />
                 <h4 className="text-xl font-bold text-orange-500 mb-2">Support & Care</h4>
-                <p className="text-sm text-gray-700">Adeniran Foundation is always here for you and your loved ones.</p>
+                <p className="text-sm text-gray-700">Othniel Foundation is always here for you and your loved ones.</p>
             </div>
         </div>
     );
@@ -72,54 +72,42 @@ function AssistanceForm() {
     return (
         <div className="max-w-md w-full mx-auto px-4 py-8 bg-white rounded-xl shadow-lg mt-8 mb-12">
             <h3 className="text-2xl font-bold text-orange-500 mb-4 text-center">Request Assistance</h3>
-            <form className="space-y-4">
-                {/* Name */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
-                    <input type="text" className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400" placeholder="Enter your full name" />
-                </div>
-                {/* Location */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Location</label>
-                    <input type="text" className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400" placeholder="Enter your location" />
-                </div>
-                {/* Phone Number */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
-                    <input type="tel" className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400" placeholder="Enter your phone number" />
-                </div>
-                {/* Sex */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Sex</label>
-                    <select className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400">
-                        <option value="">Select sex</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                {/* Urgency */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">How Urgent is the Need?</label>
-                    <select className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400">
+            <form
+                action="https://formspree.io/f/maqpdagp"
+                method="POST"
+                className="space-y-4"
+            >
+                <label className="block text-sm font-medium text-gray-700">
+                    Full Name:
+                    <input type="text" name="name" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required />
+                </label>
+                <label className="block text-sm font-medium text-gray-700">
+                    Phone Number:
+                    <input type="tel" name="phone" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required />
+                </label>
+                <label className="block text-sm font-medium text-gray-700">
+                    Location:
+                    <input type="text" name="location" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required />
+                </label>
+                <label className="block text-sm font-medium text-gray-700">
+                    Urgency:
+                    <select name="urgency" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required>
                         <option value="">Select urgency</option>
                         <option value="low">Low</option>
                         <option value="medium">Medium</option>
                         <option value="high">High</option>
                         <option value="emergency">Emergency</option>
                     </select>
-                </div>
-                {/* Situation Description */}
-                <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Tell Us About the Situation</label>
-                    <textarea className="w-full rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-gray-700 focus:ring-2 focus:ring-orange-300 focus:border-orange-400 min-h-30" placeholder="Describe the situation in detail"></textarea>
-                </div>
-                {/* Submit Button */}
-                <div className="text-center">
-                    <button type="submit" className="bg-linear-to-r from-orange-500 via-yellow-400 to-red-500 hover:from-yellow-400 hover:to-orange-500 text-white font-semibold px-8 py-3 rounded-full shadow-md transition-all text-base tracking-wide border-0 focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2">
-                        Submit Request
-                    </button>
-                </div>
+                </label>
+                <label className="block text-sm font-medium text-gray-700">
+                    Your email:
+                    <input type="email" name="email" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required />
+                </label>
+                <label className="block text-sm font-medium text-gray-700">
+                    Your message:
+                    <textarea name="message" className="mt-1 w-full rounded-md border border-orange-300 px-3 py-2 focus:border-orange-500 focus:ring-orange-500" required />
+                </label>
+                <button type="submit" className="w-full rounded-md bg-orange-500 px-4 py-2 font-semibold text-white shadow-sm transition-colors hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 mt-2">Send</button>
             </form>
         </div>
     );

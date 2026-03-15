@@ -35,7 +35,7 @@ export default function VisionMission() {
 			<section className="w-full py-12 px-4 md:px-0 bg-white font-sans">
 				<div className="max-w-5xl mx-auto mb-10 text-center">
 					<h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-4">Our Values & What Drives Us</h2>
-					<p className="text-gray-700 text-lg max-w-2xl mx-auto">At Adeniran Foundation, our core values shape every decision and action. We are driven by compassion, integrity, empowerment, and collaboration—ensuring that every initiative uplifts, inspires, and creates lasting impact in the communities we serve.</p>
+					   <p className="text-gray-700 text-lg max-w-2xl mx-auto">At Othniel Foundation, our core values shape every decision and action. We are driven by compassion, integrity, empowerment, and collaboration—ensuring that every initiative uplifts, inspires, and creates lasting impact in the communities we serve.</p>
 				</div>
 				<div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
 					{/* Compassion Card */}
@@ -76,56 +76,72 @@ export default function VisionMission() {
 			<section className="w-full py-12 px-4 md:px-0 bg-white font-sans">
 				<div className="max-w-5xl mx-auto mb-10 text-center">
 					<h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">Our Team</h2>
-					<p className="text-gray-700 text-lg max-w-2xl mx-auto">Meet the passionate people behind our mission—dedicated professionals and volunteers who drive Adeniran Foundation&rsquo;s impact and vision every day.</p>
+					   <p className="text-gray-700 text-lg max-w-2xl mx-auto">Meet the passionate people behind our mission—dedicated professionals and volunteers who drive Othniel Foundation&rsquo;s impact and vision every day.</p>
 				</div>
 				<div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 					{/* Team Member 1 */}
-					<div className="flex flex-col items-center bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-						<Image
-							src="/images/istockphoto-1213147119-612x612.jpg"
-							alt="Dr. Adeniran"
-							width={96}
-							height={96}
-							className="w-24 h-24 rounded-full object-cover border-4 border-yellow-400 mb-3"
-						/>
-						<h3 className="text-lg font-bold text-gray-800">Dr. Adeniran</h3>
-						<p className="text-sm text-gray-500">Founder & President</p>
+					<div className="flex flex-col items-center">
+						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
+							<Image
+								src="/Staff/CEO.jpg"
+								alt="Mr Jeremiah Oluwaseun Adeniran"
+								fill
+								className="object-cover rounded-full"
+								sizes="(max-width: 768px) 224px, 224px"
+							/>
+						</div>
+						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
+							<h3 className="text-lg font-thin text-gray-800">Mr Jeremiah Oluwaseun Adeniran</h3>
+							<p className="text-sm text-gray-500">Founder & President</p>
+						</div>
 					</div>
 					{/* Team Member 2 */}
-					<div className="flex flex-col items-center bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-						<Image
-							src="/images/istockphoto-2257028065-612x612.jpg"
-							alt="Grace Okafor"
-							width={96}
-							height={96}
-							className="w-24 h-24 rounded-full object-cover border-4 border-orange-400 mb-3"
-						/>
-						<h3 className="text-lg font-bold text-gray-800">Grace Okafor</h3>
-						<p className="text-sm text-gray-500">Programs Director</p>
+					<div className="flex flex-col items-center">
+						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
+							<Image
+								src="/Staff/CoFounder.jpg"
+								alt="Mrs Adebola Adetona Adeniran"
+								fill
+								className="object-cover rounded-full"
+								sizes="(max-width: 768px) 224px, 224px"
+							/>
+						</div>
+						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
+							<h3 className="text-lg font-thin text-gray-800">Mrs Adebola Adetona Adeniran</h3>
+							<p className="text-sm text-gray-500">Vice President</p>
+						</div>
 					</div>
 					{/* Team Member 3 */}
-					<div className="flex flex-col items-center bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-						<Image
-							src="/images/istockphoto-888343166-612x612.webp"
-							alt="Samuel Adeyemi"
-							width={96}
-							height={96}
-							className="w-24 h-24 rounded-full object-cover border-4 border-red-400 mb-3"
-						/>
-						<h3 className="text-lg font-bold text-gray-800">Samuel Adeyemi</h3>
-						<p className="text-sm text-gray-500">Community Lead</p>
+					<div className="flex flex-col items-center">
+						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
+							<Image
+								src="/Staff/secretary.jpg"
+								alt="Mrs Josephine Aifuwa"
+								fill
+								className="object-cover rounded-full"
+								sizes="(max-width: 768px) 224px, 224px"
+							/>
+						</div>
+						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
+							<h3 className="text-lg font-thin text-gray-800">Mrs Josephine Aifuwa</h3>
+							<p className="text-sm text-gray-500 ">Secetary</p>
+						</div>
 					</div>
 					{/* Team Member 4 */}
-					<div className="flex flex-col items-center bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-						<Image
-							src="/images/istockphoto-1333790678-612x612.jpg"
-							alt="Fatima Bello"
-							width={96}
-							height={96}
-							className="w-24 h-24 rounded-full object-cover border-4 border-orange-400 mb-3"
-						/>
-						<h3 className="text-lg font-bold text-gray-800">Fatima Bello</h3>
-						<p className="text-sm text-gray-500">Health Coordinator</p>
+					<div className="flex flex-col items-center">
+						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
+							<Image
+								src="/Staff/programCord.jpg"
+								alt="Mrs Omolegho"
+								fill
+								className="object-cover rounded-full"
+								sizes="(max-width: 768px) 224px, 224px"
+							/>
+						</div>
+						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
+							<h3 className="text-lg font-thin text-gray-800">Mrs Omolegho</h3>
+							<p className="text-sm text-gray-500">Program director</p>
+						</div>
 					</div>
 				</div>
 			</section>

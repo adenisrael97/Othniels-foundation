@@ -9,21 +9,22 @@ export default function HeroPrograms() {
 			{/* Background Image */}
 			<div className="absolute inset-0 z-0">
 				<Image
-					src="/images/istockphoto-640305394-612x612.jpg"
-					alt="Adeniran Foundation Programs"
+					src="/images/photo12.jpg"
+					   alt="Othniel Foundation Programs"
 					fill
 					priority
-					   className="object-cover w-full h-full brightness-105"
+				   className="object-cover w-full h-full brightness-105"
+				   sizes="100vw"
 				/>
 				{/* Gradient Overlay */}
-				   <div className="absolute inset-0 bg-linear-to-br from-yellow-400 via-orange-400 to-red-500 opacity-50 mix-blend-multiply" />
+				   <div className="absolute inset-0 bg-linear-to-br opacity-50 mix-blend-multiply" />
 			</div>
 
 			{/* Content */}
 			<div className="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl mx-auto">
 				<h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4 drop-shadow-lg tracking-tight">OUR PROGRAMS</h1>
 				<p className="text-lg md:text-xl text-white/90 mb-6 font-thin drop-shadow-md">
-					At Adeniran Foundation, our programs are designed to empower, educate, and uplift. From youth mentorship and women’s empowerment to health outreach and community development, we are committed to creating lasting impact and brighter futures for all.
+					   At Othniel Foundation, our programs are designed to empower, educate, and uplift. From youth mentorship and women’s empowerment to health outreach and community development, we are committed to creating lasting impact and brighter futures for all.
 				</p>
 				<Link
 					href="/contact"

@@ -34,7 +34,7 @@ export default function HelpPrograms() {
                     <h2 className="text-3xl md:text-4xl font-extrabold text-orange-500 mb-2 tracking-tight">GET INVOLVED</h2>
                     <h3 className="text-2xl md:text-3xl font-bold text-red-500 mb-2 mt-6">How You Can Help</h3>
                     <p className="text-base md:text-lg text-gray-600 mb-8 font-normal">
-                        There are many ways to support Adeniran Foundation. Whether you donate, volunteer, or partner with us, your involvement makes a difference.
+                        There are many ways to support Othniel Foundation. Whether you donate, volunteer, or partner with us, your involvement makes a difference.
                     </p>
                 </div>
 
@@ -59,7 +59,7 @@ export default function HelpPrograms() {
                 <div className="w-full bg-orange-100 rounded-2xl shadow-lg mt-12 py-8 px-6 flex flex-col items-center text-center">
                     <h3 className="text-2xl md:text-3xl font-bold text-red-500 mb-2">Need Help?</h3>
                     <p className="text-base md:text-lg text-gray-700 mb-4 font-medium max-w-xl">
-                        If you or someone you know needs support, Adeniran Foundation is here to help. Reach out for assistance and let us guide you to the resources and programs you need.
+                        If you or someone you know needs support, Othniel Foundation is here to help. Reach out for assistance and let us guide you to the resources and programs you need.
                     </p>
                     <Link
                         href="/gethelp"

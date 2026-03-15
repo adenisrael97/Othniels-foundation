@@ -1,26 +1,26 @@
 
-
+import Link from "next/link";
 export default function Footer() {
     return (
         <footer className="w-full bg-gray-800 text-white py-10 px-4">
             <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
                 <div className="w-full flex flex-col items-center gap-2">
-                    <h2 className="text-3xl font-extrabold tracking-tight mb-1 text-orange-500">Adeniran Foundation</h2>
+                    <h2 className="text-3xl font-extrabold tracking-tight mb-1 text-orange-500">Othniel Foundation</h2>
                     <p className="text-base text-white/80 mb-2 text-center max-w-md">
                         Empowering communities, inspiring hope, and creating lasting change.
                     </p>
                 </div>
                 <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="/donate" className="px-5 py-2 rounded-full bg-orange-500 text-white font-semibold hover:bg-orange-600 transition-colors duration-200 shadow">Donate</a>
-                    <a href="/contact" className="px-5 py-2 rounded-full bg-yellow-400 text-orange-700 font-semibold hover:bg-orange-500 hover:text-white transition-colors duration-200 shadow">Volunteer</a>
+                    <Link href="/donate" className="px-5 py-2 rounded-full bg-orange-500 text-white font-semibold hover:bg-orange-600 transition-colors duration-200 shadow">Donate</Link>
+                    <Link href="/contact" className="px-5 py-2 rounded-full bg-yellow-400 text-orange-700 font-semibold hover:bg-orange-500 hover:text-white transition-colors duration-200 shadow">Volunteer</Link>
                 </div>
                 <ul className="flex flex-wrap justify-center gap-6 mt-4 mb-2">
-                    <li><a href="/about" className="hover:underline text-white/90">About Us</a></li>
-                    <li><a href="/programs" className="hover:underline text-white/90">Programs</a></li>
-                    <li><a href="/blog" className="hover:underline text-white/90">Blog</a></li>
-                    <li><a href="/contact" className="hover:underline text-white/90">Contact</a></li>
+                    <li><Link href="/about" className="hover:underline text-white/90">About Us</Link></li>
+                    <li><Link href="/programs" className="hover:underline text-white/90">Programs</Link></li>
+                    <li><Link href="/blog" className="hover:underline text-white/90">Blog</Link></li>
+                    <li><Link href="/contact" className="hover:underline text-white/90">Contact</Link></li>
                 </ul>
-                <p className="text-white/90 text-xs mb-2 text-center">Email: info@adeniranfoundation.org | Phone: +234 800 123 4567</p>
+                <p className="text-white/90 text-xs mb-2 text-center">Email: othnielsfoundation@gmail.com | Phone: +234 800 123 4567</p>
             </div>
             <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between mt-8 gap-4 border-t border-white/10 pt-6">
                 <div className="flex gap-4 mb-4 sm:mb-0">
@@ -37,7 +37,7 @@ export default function Footer() {
                 <div className="text-center text-white/80 text-sm italic max-w-xl">
                     &quot;The smallest act of kindness is worth more than the grandest intention.&quot; – Oscar Wilde
                 </div>
-                <span className="text-xs text-white/70 mt-2 text-center">&copy; {new Date().getFullYear()} Adeniran Foundation. All rights reserved.</span>
+                <span className="text-xs text-white/70 mt-2 text-center">&copy; {new Date().getFullYear()} Othniels Foundation. All rights reserved.</span>
             </div>
         </footer>
     );

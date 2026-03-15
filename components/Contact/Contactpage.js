@@ -7,14 +7,15 @@ export default function Contact() {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/images/istockphoto-640305394-612x612.jpg"
-                        alt="Contact Adeniran Foundation"
+                        src="/images/photo12.jpg"
+                        alt="Contact Othniel Foundation"
                         fill
                         priority
                         className="object-cover w-full h-full brightness-105 contrast-110 saturate-125"
+                        sizes="100vw"
                     />
                     {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-linear-to-br from-yellow-400 via-orange-400 to-red-500 opacity-60 mix-blend-multiply" />
+                    <div className="absolute inset-0 bg-linear-to-br opacity-60 mix-blend-multiply" />
                 </div>
 
                 {/* Content */}
@@ -22,7 +23,7 @@ export default function Contact() {
                     <h1 className="text-4xl md:text-5xl font-extrabold text-white mt-6 mb-5 drop-shadow-lg tracking-tight">GET IN TOUCH</h1>
                     <h2 className="text-2xl md:text-3xl font-bold text-yellow-200 mt-4 mb-4">Contact Us</h2>
                     <p className="text-lg md:text-xl text-white/90 mt-4 mb-4 font-medium drop-shadow-md">
-                        We’re here to answer your questions, listen to your concerns, and connect you with the right support. Reach out to Adeniran Foundation today—your voice matters to us.
+                        We’re here to answer your questions, listen to your concerns, and connect you with the right support. Reach out to Othniel Foundation today—your voice matters to us.
                     </p>
                 </div>
             </section>
@@ -44,7 +45,7 @@ export default function Contact() {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12H8m8 0a4 4 0 11-8 0 4 4 0 018 0zm0 0v4m0-4V8" /></svg>
                         </span>
                         <h4 className="text-lg font-bold text-orange-500 mb-1">Email</h4>
-                        <p className="text-gray-700 text-sm">info@adeniranfoundation.org</p>
+                        <p className="text-gray-700 text-sm">othnielsfoundation@gmail.com</p>
                     </div>
                     {/* Address Card */}
                     <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-6 border-t-4 border-yellow-500">
@@ -52,7 +53,7 @@ export default function Contact() {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 12.414a4 4 0 10-5.657 5.657l4.243 4.243a8 8 0 0011.314-11.314l-4.243-4.243a4 4 0 00-5.657 5.657l4.243 4.243z" /></svg>
                         </span>
                         <h4 className="text-lg font-bold text-orange-500 mb-1">Address</h4>
-                        <p className="text-gray-700 text-sm">123 Foundation Ave, Lagos, Nigeria</p>
+                        <p className="text-gray-700 text-sm">House 2, Jibia Street, Area 2, Abuja, Nigeria</p>
                     </div>
                     {/* Office Hours Card */}
                     <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-6 border-t-4 border-red-400">
@@ -60,7 +61,7 @@ export default function Contact() {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         </span>
                         <h4 className="text-lg font-bold text-orange-500 mb-1">Office Hours</h4>
-                        <p className="text-gray-700 text-sm">Mon - Fri: 8:00 AM - 6:00 PM</p>
+                        <p className="text-gray-700 text-sm">Mon - Fri: 9:00 AM - 6:00 PM</p>
                     </div>
                 </div>
             </section>
