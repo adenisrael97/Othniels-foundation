@@ -10,7 +10,7 @@ const outreachImages = [
 export default function GalleryImage() {
 
 							       return (
-											   <section className="w-full min-h-screen bg-linear-to-br from-yellow-50 via-orange-50 to-red-50 py-10 px-2 flex flex-col items-center justify-center">
+											   <section className="w-full min-h-screen bg-linear-to-br py-10 px-2 flex flex-col items-center justify-center">
 											       <div className="w-full max-w-6xl mx-auto">
 												       <div className="text-center mb-10">
 													       <h1 className="text-4xl md:text-5xl font-extrabold text-orange-600 mb-3 drop-shadow-lg tracking-tight">Our Outreach Gallery</h1>

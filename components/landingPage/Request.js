@@ -29,7 +29,7 @@ export default function Request() {
                     <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full shadow transition-colors duration-200 text-base focus:outline-none focus:ring-2 focus:ring-blue-400">
                         Get Involved
                     </Link>
-                    <Link href="/request" className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 px-6 rounded-full shadow transition-colors duration-200 text-base focus:outline-none focus:ring-2 focus:ring-yellow-300">
+                    <Link href="/gethelp" className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 px-6 rounded-full shadow transition-colors duration-200 text-base focus:outline-none focus:ring-2 focus:ring-yellow-300">
                         Request Help
                     </Link>
                 </div>

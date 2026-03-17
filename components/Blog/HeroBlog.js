@@ -7,7 +7,7 @@ export default function HeroBlog() {
 		const latestNews = [
 			{
 				id: 'l1',
-				image: "/images/photo1.jpg",
+				image: "/staff/picture8.jpg",
 				date: "2026-02-05",
 				type: "Impact",
 				icon: "impact",
@@ -16,7 +16,7 @@ export default function HeroBlog() {
 			},
 			{
 				id: 'l2',
-				image: "/images/photo18.jpg",
+				image: "/images/fundraising.jpg",
 				date: "2026-02-03",
 				type: "Event",
 				icon: "event",
@@ -27,7 +27,7 @@ export default function HeroBlog() {
 	const newsData = [
 		{
 			id: 1,
-			image: "/images/photo3.jpg",
+			image: "/images/girls education.jpg",
 			date: "2026-02-01",
 			type: "Impact",
 			icon: "impact",
@@ -36,7 +36,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 2,
-			image: "/images/health.jpg",
+			image: "/images/Health.jpg",
 			date: "2026-01-25",
 			type: "Health",
 			icon: "health",
@@ -45,7 +45,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 3,
-			image: "/outreach/picture6.jpg",
+			image: "/Staff/picture3.jpg",
 			date: "2026-01-20",
 			type: "Volunteer",
 			icon: "volunteer",
@@ -63,7 +63,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 5,
-			image: "/images/photo15.jpg",
+			image: "/images/mobile clinic.jpg",
 			date: "2026-01-10",
 			type: "Health",
 			icon: "health",
@@ -72,7 +72,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 6,
-			image: "/images/photo12.jpg",
+			image: "/images/Scholarship.jpg",
 			date: "2026-01-05",
 			type: "Impact",
 			icon: "impact",
@@ -81,7 +81,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 7,
-			image: "/images/photo17.jpg",
+			image: "/outreach/picture17.jpg",
 			date: "2025-12-28",
 			type: "Volunteer",
 			icon: "volunteer",

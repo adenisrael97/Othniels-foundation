@@ -115,7 +115,7 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/secretary.jpg"
+								src="/Staff/Secretary.jpg"
 								alt="Mrs Josephine Aifuwa"
 								fill
 								className="object-cover rounded-full"
@@ -131,15 +131,15 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/programCord.jpg"
-								alt="Mrs Omolegho"
+								src="/Staff/picture5.jpg"
+								alt="Miss Gift"
 								fill
 								className="object-cover rounded-full"
 								sizes="(max-width: 768px) 224px, 224px"
 							/>
 						</div>
 						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
-							<h3 className="text-lg font-thin text-gray-800">Mrs Omolegho</h3>
+							<h3 className="text-lg font-thin text-gray-800">Miss Gift</h3>
 							<p className="text-sm text-gray-500">Program director</p>
 						</div>
 					</div>

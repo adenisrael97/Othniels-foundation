@@ -8,7 +8,7 @@ export default function News() {
             title: "Empowering Youth Through Education",
             date: "2026-02-01",
             time: "10:30 AM",
-            image: "/images/youth3.jpg",
+            image: "/images/Youth3.jpg",
         },
         {
             id: 10,
@@ -43,7 +43,7 @@ export default function News() {
             title: "Volunteer Spotlight: Making a Difference",
             date: "2026-01-05",
             time: "4:30 PM",
-            image: "/images/photo15.jpg",
+            image: "/outreach/picture18.jpg",
         },
     ];
 

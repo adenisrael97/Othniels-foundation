@@ -17,7 +17,7 @@ export default function Gallery() {
       title: "Back-to-School Drive",
     },
     {
-      src: "/images/health.jpg",
+      src: "/images/Health.jpg",
       title: "Health & Wellness Fair",
     },
     {

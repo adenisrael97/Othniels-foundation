@@ -113,7 +113,7 @@ export default function AboutUs() {
                     <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-200">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/health.jpg"
+                                src="/images/Health.jpg"
                                 alt="Health Initiatives"
                                 fill
                                 className="object-cover w-full h-full"

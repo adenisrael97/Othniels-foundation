@@ -5,7 +5,7 @@ const programs = [
     {
         name: "Youth Mentorship",
         icon: <FaBookOpen className="text-orange-500 text-2xl" />,
-        image: "/images/photo12.jpg",
+        image: "/images/youth.jpg",
         beneficiaries: "1,200+",
         benefit: "Empowerment",
         description: "Guiding young minds through mentorship, leadership training, and skill development for a brighter future.",
@@ -14,7 +14,7 @@ const programs = [
     {
         name: "Health Outreach",
         icon: <FaHeartbeat className="text-red-500 text-2xl" />,
-        image: "/images/photo15.jpg",
+        image: "/images/mobile clinic.jpg",
         beneficiaries: "2,500+",
         benefit: "Wellness",
         description: "Providing free medical checkups, health education, and support to underserved communities.",
@@ -23,7 +23,7 @@ const programs = [
     {
         name: "Women’s Empowerment",
         icon: <FaFemale className="text-yellow-500 text-2xl" />,
-        image: "/images/photo5.webp",
+        image: "/images/women.jpg",
         beneficiaries: "800+",
         benefit: "Independence",
         description: "Equipping women with skills, resources, and opportunities to thrive and lead.",
@@ -41,7 +41,7 @@ const programs = [
     {
         name: "Community Development",
         icon: <FaHandsHelping className="text-red-400 text-2xl" />,
-        image: "/images/photo13.jpg",
+        image: "/images/community2.jpg",
         beneficiaries: "3,000+",
         benefit: "Growth",
         description: "Building sustainable communities through infrastructure, education, and empowerment.",
@@ -50,7 +50,7 @@ const programs = [
     {
         name: "Volunteer Engagement",
         icon: <FaUsers className="text-orange-400 text-2xl" />,
-        image: "/images/photo17.jpg",
+        image: "/outreach/picture17.jpg",
         beneficiaries: "500+",
         benefit: "Support",
         description: "Mobilizing volunteers to drive change and support our mission across all programs.",

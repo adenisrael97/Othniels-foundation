@@ -28,7 +28,7 @@ const navLinks = [
    CONTACT INFO (shown in top bar)
    ============================================================ */
 const contactInfo = {
-  phone: "+234 800 123 4567",
+  phone: "+234 803 111 7861, +234 902 916 4846",
   email: "othnielsfoundation@gmail.com",
 };
 

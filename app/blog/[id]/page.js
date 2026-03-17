@@ -5,7 +5,7 @@ const blogPosts = {
   'l1': {
     title: "Othniel Foundation Receives National Award",
     date: "2026-02-05",
-    image: "/images/photo1.jpg",
+    image: "/Staff/picture8.jpg",
     type: "Impact",
     readingTime: "4 min read",
     description: "Othniel Foundation receives a national award for outstanding contributions to community development and social impact across Nigeria.",
@@ -40,7 +40,7 @@ const blogPosts = {
   'l2': {
     title: "Annual Fundraising Gala Success",
     date: "2026-02-03",
-    image: "/images/photo18.jpg",
+    image: "/images/fundraising.jpg",
     type: "Event",
     readingTime: "3 min read",
      description: "Highlights from Othniel Foundation's successful 2026 fundraising gala and how the proceeds will support upcoming projects.",
@@ -75,7 +75,7 @@ const blogPosts = {
   1: {
     title: "Empowering Girls Through Education",
     date: "2026-02-01",
-    image: "/images/photo3.jpg",
+    image: "/images/girls education.jpg",
     type: "Impact",
     readingTime: "5 min read",
     description: "How Othniel Foundation is empowering girls in rural communities through scholarships, mentorship, and education support.",
@@ -110,7 +110,7 @@ const blogPosts = {
   2: {
     title: "Health Camp: Making a Difference",
     date: "2026-01-25",
-    image: "/images/health.jpg",
+    image: "/images/Health.jpg",
     type: "Health",
     readingTime: "4 min read",
     description: "Inside Othniel Foundation's free health camp that provided vital medical care and education to hundreds of families.",
@@ -145,7 +145,7 @@ const blogPosts = {
   3: {
     title: "Volunteer Spotlight: Samuel",
     date: "2026-01-20",
-    image: "/outreach/picture6.jpg",
+    image: "/Staff/picture3.jpg",
     type: "Volunteer",
     readingTime: "3 min read",
     description: "Meet Samuel, a dedicated Othniel Foundation volunteer whose service is transforming lives in his community.",
@@ -215,7 +215,7 @@ const blogPosts = {
   5: {
     title: "Mobile Clinic Launch",
     date: "2026-01-10",
-    image: "/images/photo15.jpg",
+    image: "/images/mobile clinic.jpg",
     type: "Health",
     readingTime: "4 min read",
     description: "Launching Othniel Foundation's mobile clinic to bring essential healthcare services to underserved communities.",
@@ -250,7 +250,7 @@ const blogPosts = {
   6: {
     title: "Scholarship Awards Ceremony",
     date: "2026-01-05",
-    image: "/images/photo12.jpg",
+    image: "/images/Scholarship.jpg",
     type: "Impact",
     readingTime: "4 min read",
     description: "Celebrating Othniel Foundation scholarship recipients and the long-term impact of investing in education.",
@@ -285,7 +285,7 @@ const blogPosts = {
   7: {
     title: "Meet Our New Volunteers",
     date: "2025-12-28",
-    image: "/images/photo17.jpg",
+    image: "/outreach/picture17.jpg",
     type: "Volunteer",
     readingTime: "3 min read",
     description: "Introducing the newest members of Othniel Foundation's volunteer family and the roles they play in our mission.",
@@ -355,7 +355,7 @@ const blogPosts = {
   9: {
     title: "Empowering Youth Through Education",
     date: "2026-02-01",
-    image: "/images/youth3.jpg",
+    image: "/images/Youth3.jpg",
     type: "Impact",
     readingTime: "5 min read",
     description: "Othniel Foundation's youth education initiatives helping young people stay in school and unlock their potential.",
@@ -518,7 +518,7 @@ const blogPosts = {
   14: {
     title: "Volunteer Spotlight: Making a Difference",
     date: "2026-01-05",
-    image: "/images/photo15.jpg",
+    image: "/outreach/picture17.jpg",
     type: "Volunteer",
     readingTime: "4 min read",
     description: "Celebrating the everyday heroes volunteering with Othniel Foundation and the difference they make in people’s lives.",

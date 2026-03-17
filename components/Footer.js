@@ -20,7 +20,7 @@ export default function Footer() {
                     <li><Link href="/blog" className="hover:underline text-white/90">Blog</Link></li>
                     <li><Link href="/contact" className="hover:underline text-white/90">Contact</Link></li>
                 </ul>
-                <p className="text-white/90 text-xs mb-2 text-center">Email: othnielsfoundation@gmail.com | Phone: +234 800 123 4567</p>
+                <p className="text-white/90 text-xs mb-2 text-center">Email: othnielsfoundation@gmail.com | Phone: +234 803 111 7861, +234 902 916 4846</p>
             </div>
             <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between mt-8 gap-4 border-t border-white/10 pt-6">
                 <div className="flex gap-4 mb-4 sm:mb-0">
