@@ -60,7 +60,7 @@ const programs = [
 
 export default function OurPrograms() {
     return (
-        <section className="w-full py-10 md:py-16 bg-linear-to-br from-yellow-50 via-orange-50 to-red-50 font-sans">
+        <section className="w-full py-10 md:py-16 bg-linear-to-br font-sans">
             <div className="max-w-5xl mx-auto px-4">
                 {/* Section Intro */}
                 <div className="mb-8 text-center">
@@ -75,7 +75,7 @@ export default function OurPrograms() {
                 </div>
 
                                 {/* Program Cards */}
-                                <div className="bg-orange-50 rounded-3xl p-6 md:p-10 shadow-xl">
+                                <div className=" rounded-3xl p-6 md:p-10 shadow-xl">
                                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                                         {programs.slice(0, 6).map((program, idx) => (
                                             <div key={program.name + '-' + idx} className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col h-full relative border-t-4 border-orange-200">

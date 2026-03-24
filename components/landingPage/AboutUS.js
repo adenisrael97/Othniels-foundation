@@ -12,9 +12,7 @@ export default function AboutUs() {
                     <p className="text-gray-600 text-lg">
                         The Othniel Foundation is dedicated to empowering communities through education, healthcare, and sustainable development initiatives. Our mission is to create opportunities, inspire hope, and transform lives by providing resources and support to those in need. We believe in the power of collective action and strive to make a lasting impact in every community we serve.
                     </p>
-                    <p className="text-gray-600">
-                        Since our inception, we have launched numerous programs focused on youth empowerment, women’s health, and educational scholarships. Our passionate team and generous supporters work tirelessly to ensure that every project brings us closer to a brighter, more equitable future for all.
-                    </p>
+                    
                                 </div>
                 {/* Images on the right */}
                 <div className="order-1 md:order-2 md:w-1/2 w-full flex flex-col gap-4">

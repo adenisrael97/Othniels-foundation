@@ -1,6 +1,6 @@
 import React from "react";
 
-const whatsappNumber = "+23454029416";
+const whatsappNumber = "+2348166576670";
 const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, "")}`;
 
 const Whatsapp = () => {

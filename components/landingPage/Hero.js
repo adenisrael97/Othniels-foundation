@@ -43,7 +43,7 @@ export default function Hero() {
                     {/* Content without background, thin font */}
                     <div className="flex flex-col items-center max-w-2xl">
                         <motion.h1
-                            className="text-4xl md:text-6xl font-thin text-white drop-shadow-lg mb-10"
+                            className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg mb-10"
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.2, duration: 0.7, ease: "easeOut" }}
@@ -51,7 +51,7 @@ export default function Hero() {
                             Empowering Lives, <span className="text-yellow-300">Building Futures</span>
                         </motion.h1>
                         <motion.p
-                            className="text-lg md:text-2xl text-white/90 mb-8 drop-shadow-md font-thin"
+                            className="text-lg md:text-2xl text-white/90 mb-8 drop-shadow-md font-bold"
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.4, duration: 0.7, ease: "easeOut" }}
@@ -65,7 +65,7 @@ export default function Hero() {
                             transition={{ delay: 0.7, duration: 0.5, type: "spring" }}
                         >
                             <Link
-                                href="/donation"
+                                href="/donate"
                                 className="bg-linear-to-r from-red-500 via-orange-400 to-yellow-400 text-white font-bold py-2 px-6 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-200 text-base border-2 border-white/30 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2 flex items-center gap-2"
                             >
                                 Donate Now
@@ -83,39 +83,39 @@ export default function Hero() {
                 </motion.div>
             </section>
             {/* Stats Section */}
-            <section className="w-full py-6 md:py-8 bg-linear-to-r bg-yellow-200 -mt-8 relative z-10">
+            <section className="w-full py-6 md:py-8 bg-white -mt-8 relative z-10">
                 <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-6">
                     {/* Lives Touched */}
-                    <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl shadow-lg p-6 backdrop-blur-md border border-white/20">
-                        <span className="text-4xl md:text-5xl text-red-500 mb-2">
+                    <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                        <span className="text-4xl md:text-5xl text-red-600 mb-2">
                             <span className="inline-block"><FaHandHoldingHeart /></span>
                         </span>
-                        <span className="text-3xl md:text-4xl font-extrabold text-white mb-1">12,000+</span>
-                        <span className="text-lg md:text-xl text-white/90 font-thin">Lives Touched</span>
+                        <span className="text-3xl md:text-4xl font-extrabold text-black mb-1">12,000+</span>
+                        <span className="text-lg md:text-xl text-black font-thin">Lives Touched</span>
                     </div>
                     {/* Communities */}
-                    <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl shadow-lg p-6 backdrop-blur-md border border-white/20">
-                        <span className="text-4xl md:text-5xl text-red-500 mb-2">
+                    <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                        <span className="text-4xl md:text-5xl text-red-600 mb-2">
                             <span className="inline-block"><FaHome /></span>
                         </span>
-                        <span className="text-3xl md:text-4xl font-extrabold text-white mb-1">50+</span>
-                        <span className="text-lg md:text-xl text-white/90 font-thin">Communities</span>
+                        <span className="text-3xl md:text-4xl font-extrabold text-black mb-1">50+</span>
+                        <span className="text-lg md:text-xl text-black font-thin">Communities</span>
                     </div>
                     {/* Volunteers */}
-                    <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl shadow-lg p-6 backdrop-blur-md border border-white/20">
-                        <span className="text-4xl md:text-5xl text-orange-400 mb-2">
+                    <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                        <span className="text-4xl md:text-5xl text-orange-600 mb-2">
                             <span className="inline-block"><FaHandsHelping /></span>
                         </span>
-                        <span className="text-3xl md:text-4xl font-extrabold text-white mb-1">300+</span>
-                        <span className="text-lg md:text-xl text-white/90 font-thin">Volunteers</span>
+                        <span className="text-3xl md:text-4xl font-extrabold text-black mb-1">300+</span>
+                        <span className="text-lg md:text-xl text-black font-thin">Volunteers</span>
                     </div>
                     {/* Programs */}
-                    <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl shadow-lg p-6 backdrop-blur-md border border-white/20">
-                        <span className="text-4xl md:text-5xl text-red-400 mb-2">
+                    <div className="flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                        <span className="text-4xl md:text-5xl text-red-600 mb-2">
                             <span className="inline-block"><FaBlog /></span>
                         </span>
-                        <span className="text-3xl md:text-4xl font-extrabold text-white mb-1">20+</span>
-                        <span className="text-lg md:text-xl text-white/90 font-thin">Programs</span>
+                        <span className="text-3xl md:text-4xl font-extrabold text-black mb-1">20+</span>
+                        <span className="text-lg md:text-xl text-black font-thin">Programs</span>
                     </div>
                 </div>
             </section>

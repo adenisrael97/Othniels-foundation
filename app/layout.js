@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://othnielssupportfoundation.com"),
   title: "Othniel's Foundation",
   description: "Othniel's Foundation - Empowering communities through support and outreach programs.",
 };
@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Othniel's Foundation",
-              "url": "https://yourdomain.com",
-              "logo": "https://yourdomain.com/images/logo.png"
+              "url": "https://othnielssupportfoundation.com",
+              "logo": "https://othnielssupportfoundation.com/images/logo.png"
             }`
           }}
         />

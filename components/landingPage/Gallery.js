@@ -61,7 +61,7 @@ export default function Gallery() {
               priority={idx < 2}
             />
             {/* Overlay for title and color accent */}
-            <div className="absolute bottom-0 left-0 w-full bg-linear-to-t from-orange-700/80 via-orange-400/30 to-transparent px-4 py-3 flex items-end z-10">
+            <div className="absolute bottom-0 left-0 w-full bg-linear-to-t px-4 py-3 flex items-end z-10">
               <span className="text-white text-base md:text-lg font-bold tracking-wide drop-shadow-lg group-hover:text-yellow-300 transition-colors duration-300">
                 {img.title}
               </span>

@@ -5,26 +5,27 @@ import { FiArrowRight } from "react-icons/fi";
 export default function HeroPrograms() {
 	return (
 		<>
-			<section className="relative w-full h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden font-sans">
+			<section className="relative w-full min-h-80 h-[50vh] sm:h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden font-sans">
 			{/* Background Image */}
-			<div className="absolute inset-0 z-0">
-				<Image
-					src="/images/photo12.jpg"
+			   <div className="absolute inset-0 z-0">
+				   <Image
+					   src="/outreach/picture3.jpg"
 					   alt="Othniel Foundation Programs"
-					fill
-					priority
-				   className="object-cover w-full h-full brightness-105"
-				   sizes="100vw"
-				/>
-				{/* Gradient Overlay */}
+					   fill
+					   priority
+					   className="object-cover w-full h-full brightness-105 object-center sm:object-top"
+					   sizes="100vw"
+					   style={{objectPosition: 'center'}}
+				   />
+				   {/* Gradient Overlay */}
 				   <div className="absolute inset-0 bg-linear-to-br opacity-50 mix-blend-multiply" />
-			</div>
+			   </div>
 
 			{/* Content */}
 			<div className="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl mx-auto">
-				<h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4 drop-shadow-lg tracking-tight">OUR PROGRAMS</h1>
-				<p className="text-lg md:text-xl text-white/90 mb-6 font-thin drop-shadow-md">
-					   At Othniel Foundation, our programs are designed to empower, educate, and uplift. From youth mentorship and women’s empowerment to health outreach and community development, we are committed to creating lasting impact and brighter futures for all.
+				<h1 className="text-4xl md:text-3xl font-extrabold text-white mt-8 mb-4 drop-shadow-lg tracking-tight">OUR PROGRAMS</h1>
+				<p className="text-lg md:text-xl text-white mb-6 font-thin drop-shadow-md leading-relaxed">
+					At Othniel Foundation, our programs are designed to empower, educate, and uplift. From youth mentorship and women’s empowerment to health outreach and community development, we are committed to creating lasting impact and brighter futures for all.
 				</p>
 				<Link
 					href="/contact"
@@ -37,7 +38,7 @@ export default function HeroPrograms() {
 		</section>
 
 		{/* Stats Section */}
-		<section className="w-full bg-linear-to-r from-yellow-50 via-orange-50 to-red-50 py-10 md:py-16 font-sans">
+		<section className="w-full bg-linear-to-r py-10 md:py-16 font-sans">
 			<div className="max-w-5xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 				{/* Stat Card */}
 				<div className="flex flex-col items-center bg-white/90 rounded-2xl shadow-lg p-6 border-t-4 border-yellow-400">

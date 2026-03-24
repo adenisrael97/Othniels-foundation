@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: "Othniel's Foundation",
     description: "Empowering lives through outreach, support, and community programs.",
-    url: "https://yourdomain.com",
+    url: "https://othnielssupportfoundation.com",
     siteName: "Othniel's Foundation",
     images: [
       {

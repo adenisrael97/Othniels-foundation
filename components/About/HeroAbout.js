@@ -13,11 +13,28 @@ export default function About() {
                     <p className="text-lg md:text-xl text-gray-700 mb-8 font-medium leading-relaxed">
                         Othniel Foundation is dedicated to empowering communities and supporting those in need. Our mission is to foster hope, provide resources, and create lasting impact through education, health, and social initiatives. Join us as we build a brighter future together.
                     </p>
+                    <p className="text-lg md:text-lg text-gray-700 mb-8  font-medium leading-relaxed">
+                        Founded on compassion and service, we work alongside families, schools, faith communities, and local leaders to solve real challenges with practical solutions. From scholarships and mentorship to health outreach and emergency support, our programs are designed to restore dignity, unlock potential, and strengthen communities for the long term.
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-10">
+                        <div className="rounded-xl border border-yellow-200 bg-yellow-50 px-4 py-3 text-center">
+                            <h3 className="text-sm font-bold text-yellow-700">Education Support</h3>
+                            <p className="text-xs text-gray-600 mt-1">Scholarships, learning materials, and mentorship.</p>
+                        </div>
+                        <div className="rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-center">
+                            <h3 className="text-sm font-bold text-orange-700">Health Outreach</h3>
+                            <p className="text-xs text-gray-600 mt-1">Medical care, awareness, and community wellness.</p>
+                        </div>
+                        <div className="rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-center">
+                            <h3 className="text-sm font-bold text-green-700">Empowerment</h3>
+                            <p className="text-xs text-gray-600 mt-1">Skills training, youth development, and hope.</p>
+                        </div>
+                    </div>
                     {/* Founder Section */}
                                         <div className="flex flex-col items-center mb-10 w-full">
                                             <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 mb-4">
                                                 <Image
-                                                    src="/staff/CEO.jpg"
+                                                    src="/Staff/CEO.jpg"
                                                     alt="Mr Jeremial Oluwaseun Adeniran, CEO Othniel Foundation"
                                                     fill
                                                     sizes="(max-width: 640px) 160px, (max-width: 768px) 224px, 256px"
@@ -73,6 +90,7 @@ export default function About() {
                             <h2 className="text-3xl md:text-4xl font-bold text-red-500 ml-2">Who We Are</h2>
                         </div>
                         <p className="text-gray-700 text-lg mb-6 leading-relaxed">Othniel Foundation is a non-profit organization committed to transforming lives and communities through sustainable development, education, and health initiatives. We believe in the power of collective action and compassion to create lasting change.</p>
+                        <p className="text-gray-700 text-lg mb-6 leading-relaxed">Our approach is community-centered and impact-driven. We listen first, collaborate deeply, and implement programs that address both immediate needs and long-term growth. Every intervention is built to be inclusive, accountable, and measurable—so that communities not only receive support, but gain the tools to thrive independently.</p>
                         <ul className="space-y-3">
                             <li className="flex items-start gap-2">
                                 <span className="mt-1 w-3 h-3 bg-yellow-400 rounded-full"></span>
