@@ -7,7 +7,7 @@ export default function HeroBlog() {
 		const latestNews = [
 			{
 				id: 'l1',
-				image: "/staff/picture8.jpg",
+				image: "/Staff/picture8.jpg",
 				date: "2026-02-05",
 				type: "Impact",
 				icon: "impact",
