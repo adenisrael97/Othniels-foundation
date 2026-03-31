@@ -14,10 +14,29 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://othnielssupportfoundation.com";
+
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://othnielssupportfoundation.com"),
+  metadataBase: new URL(siteUrl),
   title: "Othniel's Foundation",
   description: "Othniel's Foundation - Empowering communities through support and outreach programs.",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -33,8 +52,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Othniel's Foundation",
-              "url": "https://othnielssupportfoundation.com",
-              "logo": "https://othnielssupportfoundation.com/images/logo.png"
+              "url": "${siteUrl}",
+              "logo": "${siteUrl}/images/logo.jpg"
             }`
           }}
         />

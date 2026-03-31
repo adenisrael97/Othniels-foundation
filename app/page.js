@@ -2,17 +2,20 @@
 export const metadata = {
   title: "Othniel's Foundation - Home",
   description: "Empowering lives through outreach, support, and community programs.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Othniel's Foundation",
     description: "Empowering lives through outreach, support, and community programs.",
-    url: "https://othnielssupportfoundation.com",
+    url: "/",
     siteName: "Othniel's Foundation",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/Hero1.webp",
         width: 1200,
         height: 630,
-        alt: "Othniel's Foundation Banner",
+        alt: "Othniel's Foundation",
       },
     ],
     locale: "en_US",
@@ -22,7 +25,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Othniel's Foundation",
     description: "Empowering lives through outreach, support, and community programs.",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/Hero1.webp"],
   },
 };
 
