@@ -2,42 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://othnielssupportfoundation.com/</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/about</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/blog</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/contact</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/donate</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/gallery</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/gethelp</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://othnielssupportfoundation.com/programs</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <priority>0.7</priority>
+  </url>
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/l1</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/l2</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/1</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/2</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/3</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/4</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/5</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/6</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/7</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/8</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/9</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/10</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/11</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/12</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/13</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://othnielssupportfoundation.com/blog/14</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>

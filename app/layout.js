@@ -18,8 +18,25 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://othnielssupportfoun
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Othniel's Foundation",
+  title: {
+    default: "Othniel's Foundation",
+    template: "%s | Othniel's Foundation",
+  },
   description: "Othniel's Foundation - Empowering communities through support and outreach programs.",
+  icons: {
+    icon: "/images/logo.jpg",
+    apple: "/images/logo.jpg",
+  },
+  openGraph: {
+    siteName: "Othniel's Foundation",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "/images/Hero1.webp", width: 1200, height: 630, alt: "Othniel's Foundation" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/Hero1.webp"],
+  },
   alternates: {
     canonical: "/",
   },
