@@ -67,15 +67,14 @@ export default function News() {
                         key={idx}
                         className="bg-white rounded-2xl shadow-xl border border-orange-200 hover:shadow-2xl transition-shadow duration-300 flex flex-col overflow-hidden group"
                     >
-                        <div className="relative w-full">
+                        <div className="relative w-full h-48">
                             {/* Use Next.js Image component for optimization */}
                             <Image
                                 src={news.image}
                                 alt={news.title}
-                                width={612}
-                                height={224}
+                                fill
+                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
-                                style={{ width: "100%", height: "auto" }}
                             />
                         </div>
                         <div className="flex flex-col flex-1 p-6">
@@ -112,13 +111,14 @@ export default function News() {
             </div>
             {/* Call-to-action section */}
             <div className="w-full mt-16 flex justify-center">
-                <div className="relative w-full max-w-5xl rounded-3xl overflow-hidden shadow-xl">
+                <div className="relative w-full max-w-5xl rounded-3xl overflow-hidden shadow-xl h-64 md:h-80">
                     <Image
                         src="/images/Hero1.webp"
                         alt="Make a Difference Background"
-                        width={1200}
-                        height={300}
-                        className="object-cover w-full h-64 md:h-80"
+                        fill
+                        sizes="100vw"
+                        className="object-cover"
+                        priority
                     />
                     {/* Removed background overlay from call-to-action image */}
                     <div className="absolute inset-0 flex flex-col items-center justify-center px-6 py-8 md:px-16 md:py-12">

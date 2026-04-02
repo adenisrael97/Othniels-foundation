@@ -52,14 +52,15 @@ function InfoCards() {
             </div>
             {/* Image Card */}
             <div className="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto bg-white rounded-2xl shadow-lg p-4 md:p-6 flex flex-col items-center">
-                <Image
-                    src="/images/photo12.jpg"
-                    alt="Support"
-                    width={612}
-                    height={160}
-					className="rounded-xl w-full object-cover mb-2"
-					style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-                />
+                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-2">
+                    <Image
+                        src="/images/photo12.jpg"
+                        alt="Support"
+                        fill
+                        sizes="(max-width: 768px) 100vw, 448px"
+                        className="object-cover"
+                    />
+                </div>
                 <h4 className="text-xl font-bold text-orange-500 mb-2">Support & Care</h4>
                 <p className="text-sm text-gray-700">Othniel Foundation is always here for you and your loved ones.</p>
             </div>

@@ -121,7 +121,9 @@ export default function HeroBlog() {
 				   <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 					   {latestNews.map(news => (
 						   <div key={news.id} className="flex flex-col gap-4 bg-white rounded-3xl shadow-xl border border-orange-100 overflow-hidden">
-							   <Image src={news.image} alt={news.title} width={900} height={420} className="object-cover w-full h-72 md:h-80 lg:h-96" />
+							   <div className="relative w-full h-72 md:h-80 lg:h-96">
+											<Image src={news.image} alt={news.title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+										</div>
 							   <div className="px-4 pb-5 pt-4 flex flex-col flex-1">
 								   <div className="flex items-center justify-between mb-2">
 									   <span className="text-xs text-gray-400 flex items-center gap-1">
@@ -161,7 +163,9 @@ export default function HeroBlog() {
 			   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 				   {filteredNews.map(news => (
 					   <div key={news.id} className="flex flex-col gap-4 bg-white rounded-2xl shadow-xl border border-orange-100 overflow-hidden">
-						   <Image src={news.image} alt={news.title} width={700} height={340} className="object-cover w-full h-64 md:h-72" />
+						   <div className="relative w-full h-64 md:h-72">
+									<Image src={news.image} alt={news.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
+								</div>
 						   <div className="px-4 pb-5 pt-4 flex flex-col flex-1">
 							   <div className="flex items-center justify-between mb-2">
 								   <span className="text-xs text-gray-400 flex items-center gap-1">
