@@ -1,6 +1,3 @@
-"use client";
-import React from "react";
-
 export default function DonatePage() {
 	return (
 		<section className="w-full py-12 md:py-16 px-4 md:px-0 bg-linear-to-br from-white via-yellow-50 to-orange-50 font-sans">

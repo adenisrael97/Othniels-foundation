@@ -83,9 +83,10 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/CEO.jpg"
+								src="/Staff/CEO.webp"
 								alt="Mr Jeremiah Oluwaseun Adeniran"
 								fill
+								loading="lazy"
 								className="object-cover rounded-full"
 								sizes="(max-width: 768px) 224px, 224px"
 							/>
@@ -99,9 +100,10 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/CoFounder.jpg"
+								src="/Staff/CoFounder.webp"
 								alt="Mrs Adebola Adetona Adeniran"
 								fill
+								loading="lazy"
 								className="object-cover rounded-full"
 								sizes="(max-width: 768px) 224px, 224px"
 							/>
@@ -115,9 +117,10 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/Secretary.jpg"
+								src="/Staff/Secretary.webp"
 								alt="Mrs Josephine Aifuwa"
 								fill
+								loading="lazy"
 								className="object-cover rounded-full"
 								sizes="(max-width: 768px) 224px, 224px"
 							/>
@@ -131,9 +134,10 @@ export default function VisionMission() {
 					<div className="flex flex-col items-center">
 						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
 							<Image
-								src="/Staff/picture5.jpg"
+								src="/Staff/picture5.webp"
 								alt="Miss Gift"
 								fill
+								loading="lazy"
 								className="object-cover rounded-full"
 								sizes="(max-width: 768px) 224px, 224px"
 							/>

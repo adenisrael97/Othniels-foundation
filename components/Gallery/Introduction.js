@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const outreachImages = Array.from({ length: 21 }, (_, i) => `/outreach/picture1${i + 1}.jpg`);
+const outreachImages = Array.from({ length: 21 }, (_, i) => `/outreach/picture${i + 1}.webp`);
 
 export default function Gallery() {
 	return (

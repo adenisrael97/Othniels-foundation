@@ -101,7 +101,7 @@ export default function Navbar() {
               {/* Logo Image */}
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden flex items-center justify-center bg-white">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.webp"
                   alt="Othniels Foundation Logo"
                   width={48}
                   height={48}

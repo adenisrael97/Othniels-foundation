@@ -8,28 +8,28 @@ export default function News() {
             title: "Empowering Youth Through Education",
             date: "2026-02-01",
             time: "10:30 AM",
-            image: "/images/Youth3.jpg",
+            image: "/images/Youth3.webp",
         },
         {
             id: 10,
             title: "Community Health Outreach Success",
             date: "2026-01-28",
             time: "2:00 PM",
-            image: "/images/photo1.jpg",
+            image: "/images/photo1.webp",
         },
         {
             id: 11,
             title: "Women in Tech Initiative Launched",
             date: "2026-01-20",
             time: "9:00 AM",
-            image: "/images/womentech.jpg",
+            image: "/images/womentech.webp",
         },
         {
             id: 12,
             title: "Annual Fundraiser Exceeds Goals",
             date: "2026-01-15",
             time: "6:00 PM",
-            image: "/images/fundraising.jpg",
+            image: "/images/fundraising.webp",
         },
         {
             id: 13,
@@ -43,7 +43,7 @@ export default function News() {
             title: "Volunteer Spotlight: Making a Difference",
             date: "2026-01-05",
             time: "4:30 PM",
-            image: "/outreach/picture18.jpg",
+            image: "/outreach/picture18.webp",
         },
     ];
 
@@ -73,6 +73,7 @@ export default function News() {
                                 src={news.image}
                                 alt={news.title}
                                 fill
+                                loading="lazy"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                             />

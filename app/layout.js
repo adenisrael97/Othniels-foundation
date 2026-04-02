@@ -24,8 +24,11 @@ export const metadata = {
   },
   description: "Othniel's Foundation - Empowering communities through support and outreach programs.",
   icons: {
-    icon: "/images/logo.jpg",
-    apple: "/images/logo.jpg",
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
   },
   openGraph: {
     siteName: "Othniel's Foundation",
@@ -70,7 +73,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               "name": "Othniel's Foundation",
               "url": "${siteUrl}",
-              "logo": "${siteUrl}/images/logo.jpg"
+              "logo": "${siteUrl}/images/logo.webp"
             }`
           }}
         />

@@ -7,7 +7,7 @@ export default function Contact() {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/outreach/picture1.jpg"
+                        src="/outreach/picture1.webp"
                         alt="Contact Othniel Foundation"
                         fill
                         priority

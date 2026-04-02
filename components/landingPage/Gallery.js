@@ -5,27 +5,27 @@ import { useState } from "react";
 export default function Gallery() {
   const images = [
     {
-      src: "/images/community2.jpg",
+      src: "/images/community2.webp",
       title: "Community Outreach Day",
     },
     {
-      src: "/images/youth.jpg",
+      src: "/images/youth.webp",
       title: "Youth Empowerment Workshop",
     },
     {
-      src: "/images/education.jpg",
+      src: "/images/education.webp",
       title: "Back-to-School Drive",
     },
     {
-      src: "/images/Health.jpg",
+      src: "/images/Health.webp",
       title: "Health & Wellness Fair",
     },
     {
-      src: "/outreach/picture13.jpg",
+      src: "/outreach/picture13.webp",
       title: "Food Distribution Event",
     },
     {
-      src: "/images/women2.jpg",
+      src: "/images/women2.webp",
       title: "Women in Leadership Forum",
     },
   ];

@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image";
 
 export default function About() {
@@ -34,7 +33,7 @@ export default function About() {
                                         <div className="flex flex-col items-center mb-10 w-full">
                                             <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 mb-4">
                                                 <Image
-                                                    src="/Staff/CEO.jpg"
+                                                    src="/Staff/CEO.webp"
                                                     alt="Mr Jeremial Oluwaseun Adeniran, CEO Othniel Foundation"
                                                     fill
                                                     sizes="(max-width: 640px) 160px, (max-width: 768px) 224px, 256px"
@@ -118,6 +117,7 @@ export default function About() {
                                 alt="Who We Are Othniel Foundation"
                                 width={384}
                                 height={256}
+                                loading="lazy"
                                 className="object-cover w-full h-full rounded-2xl"
                             />
                         </div>

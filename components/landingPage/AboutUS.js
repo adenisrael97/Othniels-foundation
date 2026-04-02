@@ -18,7 +18,7 @@ export default function AboutUs() {
                 <div className="order-1 md:order-2 md:w-1/2 w-full flex flex-col gap-4">
                     <div className="relative w-full h-64 rounded-lg overflow-hidden shadow-lg">
                         <Image
-                            src="/images/photo13.jpg"
+                            src="/images/photo13.webp"
                             alt="Othniel Foundation community outreach"
                             fill
                             style={{ objectFit: "cover" }}
@@ -29,18 +29,20 @@ export default function AboutUs() {
                     <div className="flex gap-4 mt-2">
                         <div className="relative w-1/2 h-32 rounded-lg overflow-hidden">
                             <Image
-                                src="/images/photo1.jpg"
+                                src="/images/photo1.webp"
                                 alt="Empowering youth"
                                 fill
+                                loading="lazy"
                                 style={{ objectFit: "cover" }}
                                 sizes="(max-width: 768px) 50vw, 25vw"
                             />
                         </div>
                         <div className="relative w-1/2 h-32 rounded-lg overflow-hidden">
                             <Image
-                                src="/images/photo3.jpg"
+                                src="/images/photo3.webp"
                                 alt="Healthcare initiative"
                                 fill
+                                loading="lazy"
                                 style={{ objectFit: "cover" }}
                                 sizes="(max-width: 768px) 50vw, 25vw"
                             />
@@ -68,12 +70,13 @@ export default function AboutUs() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {/* Card 1: Food Distribution */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/photo14.jpg"
+                                src="/images/photo14.webp"
                                 alt="Food Distribution"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
@@ -88,12 +91,13 @@ export default function AboutUs() {
                         </div>
                     </div>
                     {/* Card 2: Educational Outreach */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-100">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/education.jpg"
+                                src="/images/education.webp"
                                 alt="Educational Outreach"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
@@ -108,12 +112,13 @@ export default function AboutUs() {
                         </div>
                     </div>
                     {/* Card 3: Health Initiatives */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-200">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/Health.jpg"
+                                src="/images/Health.webp"
                                 alt="Health Initiatives"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
@@ -128,12 +133,13 @@ export default function AboutUs() {
                         </div>
                     </div>
                     {/* Card 4: Women Empowerment */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-300">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/women.jpg"
+                                src="/images/women.webp"
                                 alt="Women Empowerment"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
@@ -148,12 +154,13 @@ export default function AboutUs() {
                         </div>
                     </div>
                     {/* Card 5: Youth Development */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-400">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/youth.jpg"
+                                src="/images/youth.webp"
                                 alt="Youth Development"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
@@ -168,12 +175,13 @@ export default function AboutUs() {
                         </div>
                     </div>
                     {/* Card 6: Community Clean-Up */}
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fadeInUp delay-500">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-300 animate-fade-in">
                         <div className="relative w-full h-48 mb-4">
                             <Image
-                                src="/images/community.jpg"
+                                src="/images/community.webp"
                                 alt="Community Clean-Up"
                                 fill
+                                loading="lazy"
                                 className="object-cover w-full h-full"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />

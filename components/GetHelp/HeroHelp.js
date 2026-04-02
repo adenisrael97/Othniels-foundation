@@ -54,9 +54,10 @@ function InfoCards() {
             <div className="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto bg-white rounded-2xl shadow-lg p-4 md:p-6 flex flex-col items-center">
                 <div className="relative w-full h-48 rounded-xl overflow-hidden mb-2">
                     <Image
-                        src="/images/photo12.jpg"
+                        src="/images/photo12.webp"
                         alt="Support"
                         fill
+                        loading="lazy"
                         sizes="(max-width: 768px) 100vw, 448px"
                         className="object-cover"
                     />

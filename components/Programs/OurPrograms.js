@@ -5,7 +5,7 @@ const programs = [
     {
         name: "Youth Mentorship",
         icon: <FaBookOpen className="text-orange-500 text-2xl" />,
-        image: "/images/youth.jpg",
+        image: "/images/youth.webp",
         beneficiaries: "1,200+",
         benefit: "Empowerment",
         description: "Guiding young minds through mentorship, leadership training, and skill development for a brighter future.",
@@ -14,7 +14,7 @@ const programs = [
     {
         name: "Health Outreach",
         icon: <FaHeartbeat className="text-red-500 text-2xl" />,
-        image: "/images/mobile clinic.jpg",
+        image: "/images/mobile clinic.webp",
         beneficiaries: "2,500+",
         benefit: "Wellness",
         description: "Providing free medical checkups, health education, and support to underserved communities.",
@@ -23,7 +23,7 @@ const programs = [
     {
         name: "Women’s Empowerment",
         icon: <FaFemale className="text-yellow-500 text-2xl" />,
-        image: "/images/women.jpg",
+        image: "/images/women.webp",
         beneficiaries: "800+",
         benefit: "Independence",
         description: "Equipping women with skills, resources, and opportunities to thrive and lead.",
@@ -41,7 +41,7 @@ const programs = [
     {
         name: "Community Development",
         icon: <FaHandsHelping className="text-red-400 text-2xl" />,
-        image: "/images/community2.jpg",
+        image: "/images/community2.webp",
         beneficiaries: "3,000+",
         benefit: "Growth",
         description: "Building sustainable communities through infrastructure, education, and empowerment.",
@@ -50,7 +50,7 @@ const programs = [
     {
         name: "Volunteer Engagement",
         icon: <FaUsers className="text-orange-400 text-2xl" />,
-        image: "/outreach/picture17.jpg",
+        image: "/outreach/picture17.webp",
         beneficiaries: "500+",
         benefit: "Support",
         description: "Mobilizing volunteers to drive change and support our mission across all programs.",
@@ -85,6 +85,7 @@ export default function OurPrograms() {
                                                         src={program.image}
                                                         alt={program.name}
                                                         fill
+                                                        loading="lazy"
                                                         className="object-cover w-full h-full"
                                                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                                     />

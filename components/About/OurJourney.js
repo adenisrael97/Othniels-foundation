@@ -66,7 +66,7 @@ export default function OurJourney() {
 					{/* Gallery Item 1 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-yellow-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/images/photo15.jpg" alt="School Outreach" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/images/photo15.webp" alt="School Outreach" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-yellow-600">School Outreach</h3>
@@ -75,7 +75,7 @@ export default function OurJourney() {
 					{/* Gallery Item 2 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-orange-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/images/Health.jpg" alt="Health Mission" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/images/Health.webp" alt="Health Mission" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-orange-500">Health Mission</h3>
@@ -84,7 +84,7 @@ export default function OurJourney() {
 					{/* Gallery Item 3 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-red-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/images/community.jpg" alt="Community Event" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/images/community.webp" alt="Community Event" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-red-500">Community Event</h3>
@@ -93,7 +93,7 @@ export default function OurJourney() {
 					{/* Gallery Item 4 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-yellow-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/images/youth.jpg" alt="Youth Empowerment" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/images/youth.webp" alt="Youth Empowerment" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-yellow-600">Youth Empowerment</h3>
@@ -102,7 +102,7 @@ export default function OurJourney() {
 					{/* Gallery Item 5 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-orange-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/images/women.jpg" alt="Women's Initiative" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/images/women.webp" alt="Women's Initiative" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-orange-500">Women’s Initiative</h3>
@@ -111,7 +111,7 @@ export default function OurJourney() {
 					{/* Gallery Item 6 */}
 					<div className="bg-gray-100 rounded-2xl shadow-lg overflow-hidden flex flex-col items-center border-2 border-red-100 hover:scale-105 transition-transform duration-200">
 						<div className="relative w-full h-48">
-							<Image src="/outreach/picture8.jpg" alt="Celebration Day" fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+							<Image src="/outreach/picture8.webp" alt="Celebration Day" fill loading="lazy" sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
 						</div>
 						<div className="p-4 w-full text-center">
 							<h3 className="text-lg font-bold text-red-500">Celebration Day</h3>

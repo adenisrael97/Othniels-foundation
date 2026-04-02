@@ -9,7 +9,7 @@ export default function HeroPrograms() {
 			{/* Background Image */}
 			   <div className="absolute inset-0 z-0">
 				   <Image
-					   src="/outreach/picture3.jpg"
+					   src="/outreach/picture3.webp"
 					   alt="Othniel Foundation Programs"
 					   fill
 					   priority

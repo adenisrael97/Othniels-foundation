@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +7,7 @@ export default function Request() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/photo4.jpg"
+                    src="/images/photo4.webp"
                     alt="Making a Difference"
                     fill
                     className="object-cover w-full h-full opacity-70"

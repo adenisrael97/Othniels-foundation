@@ -5,7 +5,7 @@ const blogPosts = {
   'l1': {
     title: "Othniel Foundation Receives National Award",
     date: "2026-02-05",
-    image: "/Staff/picture8.jpg",
+    image: "/Staff/picture8.webp",
     type: "Impact",
     readingTime: "4 min read",
     description: "Othniel Foundation receives a national award for outstanding contributions to community development and social impact across Nigeria.",
@@ -40,7 +40,7 @@ const blogPosts = {
   'l2': {
     title: "Annual Fundraising Gala Success",
     date: "2026-02-03",
-    image: "/images/fundraising.jpg",
+    image: "/images/fundraising.webp",
     type: "Event",
     readingTime: "3 min read",
      description: "Highlights from Othniel Foundation's successful 2026 fundraising gala and how the proceeds will support upcoming projects.",
@@ -75,7 +75,7 @@ const blogPosts = {
   1: {
     title: "Empowering Girls Through Education",
     date: "2026-02-01",
-    image: "/images/girls education.jpg",
+    image: "/images/girls education.webp",
     type: "Impact",
     readingTime: "5 min read",
     description: "How Othniel Foundation is empowering girls in rural communities through scholarships, mentorship, and education support.",
@@ -110,7 +110,7 @@ const blogPosts = {
   2: {
     title: "Health Camp: Making a Difference",
     date: "2026-01-25",
-    image: "/images/Health.jpg",
+    image: "/images/Health.webp",
     type: "Health",
     readingTime: "4 min read",
     description: "Inside Othniel Foundation's free health camp that provided vital medical care and education to hundreds of families.",
@@ -145,7 +145,7 @@ const blogPosts = {
   3: {
     title: "Volunteer Spotlight: Samuel",
     date: "2026-01-20",
-    image: "/Staff/picture3.jpg",
+    image: "/Staff/picture3.webp",
     type: "Volunteer",
     readingTime: "3 min read",
     description: "Meet Samuel, a dedicated Othniel Foundation volunteer whose service is transforming lives in his community.",
@@ -180,7 +180,7 @@ const blogPosts = {
   4: {
     title: "Community Event Success",
     date: "2026-01-15",
-    image: "/outreach/picture6.jpg",
+    image: "/outreach/picture6.webp",
     type: "Event",
     readingTime: "3 min read",
     description: "Recap of a vibrant Othniel Foundation community event that celebrated unity, progress, and collaboration.",
@@ -215,7 +215,7 @@ const blogPosts = {
   5: {
     title: "Mobile Clinic Launch",
     date: "2026-01-10",
-    image: "/images/mobile clinic.jpg",
+    image: "/images/mobile clinic.webp",
     type: "Health",
     readingTime: "4 min read",
     description: "Launching Othniel Foundation's mobile clinic to bring essential healthcare services to underserved communities.",
@@ -250,7 +250,7 @@ const blogPosts = {
   6: {
     title: "Scholarship Awards Ceremony",
     date: "2026-01-05",
-    image: "/images/Scholarship.jpg",
+    image: "/images/Scholarship.webp",
     type: "Impact",
     readingTime: "4 min read",
     description: "Celebrating Othniel Foundation scholarship recipients and the long-term impact of investing in education.",
@@ -285,7 +285,7 @@ const blogPosts = {
   7: {
     title: "Meet Our New Volunteers",
     date: "2025-12-28",
-    image: "/outreach/picture17.jpg",
+    image: "/outreach/picture17.webp",
     type: "Volunteer",
     readingTime: "3 min read",
     description: "Introducing the newest members of Othniel Foundation's volunteer family and the roles they play in our mission.",
@@ -320,7 +320,7 @@ const blogPosts = {
   8: {
     title: "Women’s Initiative Workshop",
     date: "2025-12-20",
-    image: "/outreach/picture1.jpg",
+    image: "/outreach/picture1.webp",
     type: "Event",
     readingTime: "4 min read",
     description: "An empowering workshop by Othniel Foundation equipping women with skills, confidence, and leadership opportunities.",
@@ -355,7 +355,7 @@ const blogPosts = {
   9: {
     title: "Empowering Youth Through Education",
     date: "2026-02-01",
-    image: "/images/Youth3.jpg",
+    image: "/images/Youth3.webp",
     type: "Impact",
     readingTime: "5 min read",
     description: "Othniel Foundation's youth education initiatives helping young people stay in school and unlock their potential.",
@@ -390,7 +390,7 @@ const blogPosts = {
   10: {
     title: "Community Health Outreach Success",
     date: "2026-01-28",
-    image: "/images/photo1.jpg",
+    image: "/images/photo1.webp",
     type: "Health",
     readingTime: "4 min read",
     description: "A successful health outreach by Othniel Foundation delivering free checkups, treatment, and health education to families.",
@@ -422,7 +422,7 @@ const blogPosts = {
   11: {
     title: "Women in Tech Initiative Launched",
     date: "2026-01-20",
-    image: "/images/womentech.jpg",
+    image: "/images/womentech.webp",
     type: "Empowerment",
     readingTime: "5 min read",
     description: "Launching Othniel Foundation's Women in Tech Initiative to equip women with digital skills and opportunities in tech.",
@@ -454,7 +454,7 @@ const blogPosts = {
   12: {
     title: "Annual Fundraiser Exceeds Goals",
     date: "2026-01-15",
-    image: "/images/fundraising.jpg",
+    image: "/images/fundraising.webp",
     type: "Event",
     readingTime: "4 min read",
     description: "How Othniel Foundation's latest fundraising campaign surpassed its goals and will drive impact in key programs.",
@@ -518,7 +518,7 @@ const blogPosts = {
   14: {
     title: "Volunteer Spotlight: Making a Difference",
     date: "2026-01-05",
-    image: "/outreach/picture17.jpg",
+    image: "/outreach/picture17.webp",
     type: "Volunteer",
     readingTime: "4 min read",
     description: "Celebrating the everyday heroes volunteering with Othniel Foundation and the difference they make in people’s lives.",
@@ -652,6 +652,7 @@ export default async function BlogDetails(props) {
               alt={post.title}
               width={1200}
               height={800}
+              loading="lazy"
               className="object-cover w-full max-h-112"
               style={{ width: "100%", height: "auto" }}
             />

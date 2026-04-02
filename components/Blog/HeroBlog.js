@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import { useState } from "react";
 export default function HeroBlog() {
 		// Latest news data (featured)
 		const latestNews = [
 			{
 				id: 'l1',
-				image: "/Staff/picture8.jpg",
+				image: "/Staff/picture8.webp",
 				date: "2026-02-05",
 				type: "Impact",
 				icon: "impact",
@@ -16,7 +16,7 @@ export default function HeroBlog() {
 			},
 			{
 				id: 'l2',
-				image: "/images/fundraising.jpg",
+				image: "/images/fundraising.webp",
 				date: "2026-02-03",
 				type: "Event",
 				icon: "event",
@@ -27,7 +27,7 @@ export default function HeroBlog() {
 	const newsData = [
 		{
 			id: 1,
-			image: "/images/girls education.jpg",
+			image: "/images/girls education.webp",
 			date: "2026-02-01",
 			type: "Impact",
 			icon: "impact",
@@ -36,7 +36,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 2,
-			image: "/images/Health.jpg",
+			image: "/images/Health.webp",
 			date: "2026-01-25",
 			type: "Health",
 			icon: "health",
@@ -45,7 +45,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 3,
-			image: "/Staff/picture3.jpg",
+			image: "/Staff/picture3.webp",
 			date: "2026-01-20",
 			type: "Volunteer",
 			icon: "volunteer",
@@ -54,7 +54,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 4,
-			image: "/outreach/picture6.jpg",
+			image: "/outreach/picture6.webp",
 			date: "2026-01-15",
 			type: "Event",
 			icon: "event",
@@ -63,7 +63,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 5,
-			image: "/images/mobile clinic.jpg",
+			image: "/images/mobile clinic.webp",
 			date: "2026-01-10",
 			type: "Health",
 			icon: "health",
@@ -72,7 +72,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 6,
-			image: "/images/Scholarship.jpg",
+			image: "/images/Scholarship.webp",
 			date: "2026-01-05",
 			type: "Impact",
 			icon: "impact",
@@ -81,7 +81,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 7,
-			image: "/outreach/picture17.jpg",
+			image: "/outreach/picture17.webp",
 			date: "2025-12-28",
 			type: "Volunteer",
 			icon: "volunteer",
@@ -90,7 +90,7 @@ export default function HeroBlog() {
 		},
 		{
 			id: 8,
-			image: "/outreach/picture1.jpg",
+			image: "/outreach/picture1.webp",
 			date: "2025-12-20",
 			type: "Event",
 			icon: "event",
@@ -99,7 +99,7 @@ export default function HeroBlog() {
 		},
 	];
 
-	const [filter, setFilter] = React.useState("All");
+	const [filter, setFilter] = useState("All");
 	const typeIcons = {
 		Impact: <svg className="w-5 h-5 text-yellow-500 inline-block mr-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" /><circle cx="12" cy="12" r="10" /></svg>,
 		Health: <svg className="w-5 h-5 text-orange-500 inline-block mr-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 20h9" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m0 0H3m9 0a9 9 0 100-18 9 9 0 000 18z" /></svg>,
@@ -122,7 +122,7 @@ export default function HeroBlog() {
 					   {latestNews.map(news => (
 						   <div key={news.id} className="flex flex-col gap-4 bg-white rounded-3xl shadow-xl border border-orange-100 overflow-hidden">
 							   <div className="relative w-full h-72 md:h-80 lg:h-96">
-											<Image src={news.image} alt={news.title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+											<Image src={news.image} alt={news.title} fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
 										</div>
 							   <div className="px-4 pb-5 pt-4 flex flex-col flex-1">
 								   <div className="flex items-center justify-between mb-2">
@@ -164,7 +164,7 @@ export default function HeroBlog() {
 				   {filteredNews.map(news => (
 					   <div key={news.id} className="flex flex-col gap-4 bg-white rounded-2xl shadow-xl border border-orange-100 overflow-hidden">
 						   <div className="relative w-full h-64 md:h-72">
-									<Image src={news.image} alt={news.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
+									<Image src={news.image} alt={news.title} fill loading="lazy" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
 								</div>
 						   <div className="px-4 pb-5 pt-4 flex flex-col flex-1">
 							   <div className="flex items-center justify-between mb-2">
