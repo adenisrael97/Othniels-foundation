@@ -610,9 +610,31 @@ export default async function BlogDetails(props) {
     );
   }
   const publishedDate = new Date(post.date).toLocaleDateString();
+  const isoDate = new Date(post.date).toISOString();
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://othnielssupportfoundation.com";
+  
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "image": [
+      `${siteUrl}${post.image}`
+    ],
+    "datePublished": isoDate,
+    "dateModified": isoDate,
+    "author": [{
+      "@type": "Organization",
+      "name": "Othniel's Foundation",
+      "url": siteUrl
+    }]
+  };
 
   return (
     <section className="w-full py-10 md:py-16 px-4 md:px-0 bg-linear-to-br from-white via-gray-50 to-yellow-50 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-6xl mx-auto">
         {/* Breadcrumb */}
         <nav className="text-xs md:text-sm text-gray-500 mb-4 flex items-center gap-1 md:gap-2">
