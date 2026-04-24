@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPhone, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import Button from "@/components/ui/Button";
 
 /* ============================================================
    NAVIGATION LINKS
@@ -147,12 +148,9 @@ export default function Navbar() {
 
             {/* ===== CTA BUTTON (Desktop) ===== */}
             <div className="hidden lg:flex items-center gap-4">
-              <Link
-                href="/contact"
-                className="px-6 py-2.5 bg-yellow-500 text-black font-semibold rounded-full hover:bg-yellow-400 active:bg-yellow-600 transition-colors shadow-md hover:shadow-lg"
-              >
+              <Button variant="nav" href="/contact" size={null} className="px-6 py-2.5">
                 Donate
-              </Link>
+              </Button>
             </div>
 
             {/* ===== MOBILE MENU BUTTON ===== */}
@@ -207,13 +205,15 @@ export default function Navbar() {
 
                 {/* Mobile CTA */}
                 <div className="mt-4 pt-4 border-t border-gray-100">
-                  <Link
+                  <Button
+                    variant="nav"
                     href="/contact"
+                    size={null}
                     onClick={closeMenu}
-                    className="block w-full py-3 bg-yellow-500 text-black text-center font-semibold rounded-full hover:bg-yellow-400 active:bg-yellow-600 transition-colors"
+                    className="block w-full py-3 text-center"
                   >
                     Donate
-                  </Link>
+                  </Button>
                 </div>
 
                 {/* Mobile Contact Info */}
