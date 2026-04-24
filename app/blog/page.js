@@ -12,8 +12,6 @@ export const metadata = {
   },
 };
 
-export default function Blog () {
-    return (
-        <HeroBlog />
-    )
+export default function Blog() {
+  return <HeroBlog />;
 }

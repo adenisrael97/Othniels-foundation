@@ -83,13 +83,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        {/* Sticky WhatsApp Button */}
-        {typeof window !== "undefined" && (
-          <div suppressHydrationWarning>
-            {/* Avoid SSR hydration mismatch */}
-            <Whatsapp />
-          </div>
-        )}
+        <Whatsapp />
       </body>
     </html>
   );

@@ -1,7 +1,3 @@
-import Image from "next/image";
-
-const outreachImages = Array.from({ length: 21 }, (_, i) => `/outreach/picture${i + 1}.webp`);
-
 export default function Gallery() {
 	return (
 		<section className="w-full min-h-screen bg-linear-to-br from-yellow-50 via-orange-50 to-red-50 py-16 px-4 flex flex-col items-center justify-center">

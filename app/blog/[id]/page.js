@@ -549,6 +549,10 @@ const blogPosts = {
   },
 };
 
+export function generateStaticParams() {
+  return Object.keys(blogPosts).map((id) => ({ id: String(id) }));
+}
+
 export async function generateMetadata(props) {
   const params = await props.params;
   const { id } = params;
@@ -674,7 +678,7 @@ export default async function BlogDetails(props) {
               alt={post.title}
               width={1200}
               height={800}
-              loading="lazy"
+              priority
               className="object-cover w-full max-h-112"
               style={{ width: "100%", height: "auto" }}
             />

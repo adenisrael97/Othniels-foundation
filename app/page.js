@@ -32,17 +32,19 @@ export const metadata = {
 import Hero from "@/components/landingPage/Hero";
 import AboutUs from "@/components/landingPage/AboutUS";
 import Request from "@/components/landingPage/Request";
-import HomepageClient from "@/components/landingPage/HomepageClient";
-import Whatsapp from "@/components/landingPage/Whatsapp";
+import Testimonial from "@/components/landingPage/Testimonial";
+import Gallery from "@/components/landingPage/Gallery";
+import News from "@/components/landingPage/News";
 
-export default function Homepage () {
+export default function Homepage() {
   return (
     <section>
       <Hero />
       <AboutUs />
       <Request />
-      <HomepageClient />
-      <Whatsapp />
+      <Testimonial />
+      <Gallery />
+      <News />
     </section>
   );
 }
