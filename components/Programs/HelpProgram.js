@@ -5,22 +5,22 @@ import { HelpCard } from "@/components/ui/Card";
 const helpOptions = [
   {
     title: "Donate",
-    icon: <FaHandHoldingHeart className="text-red-500 text-3xl mb-2" />,
-    content: "Your donation fuels our mission and helps us reach more lives. Every contribution counts!",
+    icon: <FaHandHoldingHeart />,
+    content: "Your donation fuels our mission and helps us reach more lives. Every contribution, large or small, counts.",
     button: "Donate Now",
     link: "/contact",
   },
   {
     title: "Volunteer",
-    icon: <FaUserFriends className="text-orange-500 text-3xl mb-2" />,
-    content: "Join our team of passionate volunteers and make a direct impact in your community.",
+    icon: <FaUserFriends />,
+    content: "Join our team of passionate volunteers and make a direct impact in communities that need you most.",
     button: "Become a Volunteer",
     link: "/contact",
   },
   {
     title: "Partner",
-    icon: <FaHandshake className="text-yellow-500 text-3xl mb-2" />,
-    content: "Collaborate with us to expand our reach and create sustainable change together.",
+    icon: <FaHandshake />,
+    content: "Collaborate with us to expand our reach and create sustainable, lasting change together.",
     button: "Partner With Us",
     link: "/contact",
   },
@@ -28,22 +28,23 @@ const helpOptions = [
 
 export default function HelpPrograms() {
   return (
-    <section className="w-full py-10 md:py-16 bg-linear-to-br from-yellow-50 via-orange-50 to-red-50 font-sans">
-      <div className="max-w-4xl mx-auto px-4">
-        <div className="mb-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-orange-500 mb-2 tracking-tight">
-            GET INVOLVED
-          </h2>
-          <h3 className="text-2xl md:text-3xl font-bold text-red-500 mb-2 mt-6">
+    <section className="w-full bg-gray-50 py-24 px-6">
+      <div className="max-w-6xl mx-auto">
+
+        {/* Header */}
+        <div className="text-center mb-14">
+          <span className="eyebrow">Get Involved</span>
+          <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
             How You Can Help
-          </h3>
-          <p className="text-base md:text-lg text-gray-600 mb-8 font-normal">
-            There are many ways to support Othniel Foundation. Whether you donate,
-            volunteer, or partner with us, your involvement makes a difference.
+          </h2>
+          <p className="mt-4 text-gray-500 text-base max-w-md mx-auto leading-relaxed">
+            Whether you donate, volunteer, or partner with us — your
+            involvement makes a meaningful difference.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {helpOptions.map((option) => (
             <HelpCard
               key={option.title}
@@ -51,24 +52,27 @@ export default function HelpPrograms() {
               title={option.title}
               description={option.content}
             >
-              <Button variant="primary" size="md" href={option.link} className="mt-auto">
+              <Button variant="primary" size="sm" href={option.link}>
                 {option.button}
               </Button>
             </HelpCard>
           ))}
         </div>
-      </div>
 
-      <div className="w-full bg-orange-100 rounded-2xl shadow-lg mt-12 py-8 px-6 flex flex-col items-center text-center">
-        <h3 className="text-2xl md:text-3xl font-bold text-red-500 mb-2">Need Help?</h3>
-        <p className="text-base md:text-lg text-gray-700 mb-4 font-medium max-w-xl">
-          If you or someone you know needs support, Othniel Foundation is here to
-          help. Reach out for assistance and let us guide you to the resources and
-          programs you need.
-        </p>
-        <Button variant="primary" href="/gethelp">
-          Request Assistance
-        </Button>
+        {/* Need Help CTA */}
+        <div className="mt-10 bg-white rounded-xl border border-gray-100 shadow-sm p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <p className="text-base font-semibold text-gray-900">Need Support?</p>
+            <p className="text-sm text-gray-500 mt-1 max-w-md leading-relaxed">
+              If you or someone you know needs assistance, Othniel Foundation
+              is here to help. Reach out and we&apos;ll guide you to the right
+              resources.
+            </p>
+          </div>
+          <Button variant="brand" href="/gethelp" size="md" className="shrink-0">
+            Request Assistance
+          </Button>
+        </div>
       </div>
     </section>
   );

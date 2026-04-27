@@ -1,154 +1,163 @@
-import Image from 'next/image';
+import Image from "next/image";
+
+const values = [
+  {
+    title: "Compassion",
+    description: "We act with empathy and kindness, putting people at the heart of everything we do.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21C12 21 4 13.5 4 8.5C4 5.5 6.5 3 9.5 3C11.04 3 12.5 4.04 13 5.09C13.5 4.04 14.96 3 16.5 3C19.5 3 22 5.5 22 8.5C22 13.5 12 21 12 21Z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Integrity",
+    description: "We uphold honesty, transparency, and accountability in all our actions and partnerships.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Empowerment",
+    description: "We enable individuals and communities to realise their full potential.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Collaboration",
+    description: "We work together with partners, communities, and stakeholders to maximise our impact.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-5a4 4 0 11-8 0 4 4 0 018 0zm6 4v2m0 0a2 2 0 01-2 2h-4a2 2 0 01-2-2v-2" />
+      </svg>
+    ),
+  },
+];
+
+const team = [
+  { name: "Mr Jeremiah Oluwaseun Adeniran", role: "Founder & President",  src: "/Staff/CEO.webp" },
+  { name: "Mrs Adebola Adetona Adeniran",   role: "Vice President",       src: "/Staff/CoFounder.webp" },
+  { name: "Mrs Josephine Aifuwa",           role: "Secretary",            src: "/Staff/Secretary.webp" },
+  { name: "Miss Gift",                      role: "Program Director",     src: "/Staff/picture5.webp" },
+];
 
 export default function VisionMission() {
-	return (
-		<>
-			{/* Mission & Vision Section */}
-			<section className="w-full py-12 px-4 md:px-0 bg-white font-sans">
-				<div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-					{/* Mission Card */}
-					<div className="bg-linear-to-br from-yellow-50 via-white to-gray-100 rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-4 flex items-center justify-center w-16 h-16 rounded-full bg-yellow-100">
-							{/* Mission Icon */}
-							<svg className="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>
-						</div>
-						<h3 className="text-2xl font-bold text-yellow-600 mb-2">Our Mission</h3>
-						<p className="text-gray-700 text-base leading-relaxed">
-							To empower individuals and communities through education, healthcare, and sustainable development initiatives. We strive to create opportunities, foster hope, and inspire positive change for a brighter future.
-						</p>
-					</div>
-					{/* Vision Card */}
-					<div className="bg-linear-to-br from-orange-50 via-white to-gray-100 rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-4 flex items-center justify-center w-16 h-16 rounded-full bg-orange-100">
-							{/* Vision Icon */}
-							<svg className="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m4 4h-1v-2a2 2 0 00-2-2h-1a2 2 0 00-2 2v2H7m6 0v2a2 2 0 01-2 2H9a2 2 0 01-2-2v-2" /></svg>
-						</div>
-						<h3 className="text-2xl font-bold text-orange-600 mb-2">Our Vision</h3>
-						<p className="text-gray-700 text-base leading-relaxed">
-							To be a leading force in building resilient, inclusive, and thriving communities where every individual has the opportunity to reach their full potential and contribute to society.
-						</p>
-					</div>
-				</div>
-			</section>
+  return (
+    <>
+      {/* ── Mission & Vision ── */}
+      <section className="w-full bg-white py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="eyebrow">Purpose</span>
+            <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+              Mission &amp; Vision
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Mission */}
+            <div className="bg-gray-50 rounded-xl border border-gray-100 p-8">
+              <div className="w-10 h-10 flex items-center justify-center rounded-full bg-amber-100 text-amber-700 mb-5">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Our Mission</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                To empower individuals and communities through education,
+                healthcare, and sustainable development initiatives — creating
+                opportunities, fostering hope, and inspiring positive change
+                for a brighter future.
+              </p>
+            </div>
 
-			{/* Our Values & What Drives Us Section */}
-			<section className="w-full py-12 px-4 md:px-0 bg-white font-sans">
-				<div className="max-w-5xl mx-auto mb-10 text-center">
-					<h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-4">Our Values & What Drives Us</h2>
-					   <p className="text-gray-700 text-lg max-w-2xl mx-auto">At Othniel Foundation, our core values shape every decision and action. We are driven by compassion, integrity, empowerment, and collaboration—ensuring that every initiative uplifts, inspires, and creates lasting impact in the communities we serve.</p>
-				</div>
-				<div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-					{/* Compassion Card */}
-					<div className="bg-linear-to-br from-yellow-50 via-white to-gray-100 rounded-2xl shadow-lg border border-gray-100 p-6 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-yellow-100">
-							<svg className="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 21C12 21 4 13.5 4 8.5C4 5.5 6.5 3 9.5 3C11.04 3 12.5 4.04 13 5.09C13.5 4.04 14.96 3 16.5 3C19.5 3 22 5.5 22 8.5C22 13.5 12 21 12 21Z" /></svg>
-						</div>
-						<h3 className="text-lg font-bold text-yellow-600 mb-1">Compassion</h3>
-						<p className="text-gray-700 text-sm">We act with empathy and kindness, putting people at the heart of everything we do.</p>
-					</div>
-					{/* Integrity Card */}
-					<div className="bg-linear-to-br from-orange-50 via-white to-gray-100 rounded-2xl shadow-lg border border-gray-100 p-6 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-orange-100">
-							<svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 20h9" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m0 0H3m9 0a9 9 0 100-18 9 9 0 000 18z" /></svg>
-						</div>
-						<h3 className="text-lg font-bold text-orange-600 mb-1">Integrity</h3>
-						<p className="text-gray-700 text-sm">We uphold honesty, transparency, and accountability in all our actions and partnerships.</p>
-					</div>
-					{/* Empowerment Card */}
-					<div className="bg-linear-to-br from-red-50 via-white to-gray-100 rounded-2xl shadow-lg border border-gray-100 p-6 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-red-100">
-							<svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" /><circle cx="12" cy="12" r="10" /></svg>
-						</div>
-						<h3 className="text-lg font-bold text-red-600 mb-1">Empowerment</h3>
-						<p className="text-gray-700 text-sm">We enable individuals and communities to realize their full potential and drive their own progress.</p>
-					</div>
-					{/* Collaboration Card */}
-					<div className="bg-linear-to-br from-gray-100 via-white to-yellow-50 rounded-2xl shadow-lg border border-gray-100 p-6 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-xl">
-						<div className="mb-3 flex items-center justify-center w-12 h-12 rounded-full bg-gray-200">
-							<svg className="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5a4 4 0 11-8 0 4 4 0 018 0zm6 4v2a2 2 0 01-2 2h-4a2 2 0 01-2-2v-2a2 2 0 012-2h4a2 2 0 012 2z" /></svg>
-						</div>
-						<h3 className="text-lg font-bold text-gray-700 mb-1">Collaboration</h3>
-						<p className="text-gray-700 text-sm">We work together with partners, communities, and stakeholders to maximize our impact.</p>
-					</div>
-				</div>
-			</section>
-			{/* Our Team Section */}
-			<section className="w-full py-12 px-4 md:px-0 bg-white font-sans">
-				<div className="max-w-5xl mx-auto mb-10 text-center">
-					<h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">Our Team</h2>
-					   <p className="text-gray-700 text-lg max-w-2xl mx-auto">Meet the passionate people behind our mission—dedicated professionals and volunteers who drive Othniel Foundation&rsquo;s impact and vision every day.</p>
-				</div>
-				<div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-					{/* Team Member 1 */}
-					<div className="flex flex-col items-center">
-						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
-							<Image
-								src="/Staff/CEO.webp"
-								alt="Mr Jeremiah Oluwaseun Adeniran"
-								fill
-								loading="lazy"
-								className="object-cover rounded-full"
-								sizes="(max-width: 768px) 224px, 224px"
-							/>
-						</div>
-						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
-							<h3 className="text-lg font-thin text-gray-800">Mr Jeremiah Oluwaseun Adeniran</h3>
-							<p className="text-sm text-gray-500">Founder & President</p>
-						</div>
-					</div>
-					{/* Team Member 2 */}
-					<div className="flex flex-col items-center">
-						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
-							<Image
-								src="/Staff/CoFounder.webp"
-								alt="Mrs Adebola Adetona Adeniran"
-								fill
-								loading="lazy"
-								className="object-cover rounded-full"
-								sizes="(max-width: 768px) 224px, 224px"
-							/>
-						</div>
-						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
-							<h3 className="text-lg font-thin text-gray-800">Mrs Adebola Adetona Adeniran</h3>
-							<p className="text-sm text-gray-500">Vice President</p>
-						</div>
-					</div>
-					{/* Team Member 3 */}
-					<div className="flex flex-col items-center">
-						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
-							<Image
-								src="/Staff/Secretary.webp"
-								alt="Mrs Josephine Aifuwa"
-								fill
-								loading="lazy"
-								className="object-cover rounded-full"
-								sizes="(max-width: 768px) 224px, 224px"
-							/>
-						</div>
-						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
-							<h3 className="text-lg font-thin text-gray-800">Mrs Josephine Aifuwa</h3>
-							<p className="text-sm text-gray-500 ">Secetary</p>
-						</div>
-					</div>
-					{/* Team Member 4 */}
-					<div className="flex flex-col items-center">
-						<div className="relative w-56 h-56 mb-3 rounded-full overflow-hidden">
-							<Image
-								src="/Staff/picture5.webp"
-								alt="Miss Gift"
-								fill
-								loading="lazy"
-								className="object-cover rounded-full"
-								sizes="(max-width: 768px) 224px, 224px"
-							/>
-						</div>
-						<div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 w-full flex flex-col items-center">
-							<h3 className="text-lg font-thin text-gray-800">Miss Gift</h3>
-							<p className="text-sm text-gray-500">Program director</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</>
-	);
+            {/* Vision */}
+            <div className="bg-gray-50 rounded-xl border border-gray-100 p-8">
+              <div className="w-10 h-10 flex items-center justify-center rounded-full bg-amber-100 text-amber-700 mb-5">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Our Vision</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                To be a leading force in building resilient, inclusive, and
+                thriving communities where every individual has the opportunity
+                to reach their full potential and contribute to society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Values ── */}
+      <section className="w-full bg-gray-50 py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="eyebrow">What Drives Us</span>
+            <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+              Our Values
+            </h2>
+            <p className="mt-4 text-gray-500 text-base max-w-md mx-auto leading-relaxed">
+              Our core values shape every decision and action — ensuring every
+              initiative uplifts and creates lasting impact.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+            {values.map((v) => (
+              <div
+                key={v.title}
+                className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 flex flex-col hover:shadow-md transition-shadow duration-300"
+              >
+                <div className="w-9 h-9 flex items-center justify-center rounded-full bg-amber-100 text-amber-700 mb-4">
+                  {v.icon}
+                </div>
+                <h3 className="text-sm font-semibold text-gray-900 mb-2">{v.title}</h3>
+                <p className="text-xs text-gray-500 leading-relaxed">{v.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Team ── */}
+      <section className="w-full bg-white py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="eyebrow">The People</span>
+            <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+              Our Team
+            </h2>
+            <p className="mt-4 text-gray-500 text-base max-w-md mx-auto leading-relaxed">
+              Meet the dedicated professionals and volunteers who drive
+              Othniel Foundation&rsquo;s mission every day.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {team.map((member) => (
+              <div key={member.name} className="flex flex-col items-center text-center">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden mb-4 ring-2 ring-gray-100">
+                  <Image
+                    src={member.src}
+                    alt={member.name}
+                    fill
+                    loading="lazy"
+                    className="object-cover"
+                    sizes="(max-width: 640px) 112px, 144px"
+                  />
+                </div>
+                <p className="text-sm font-semibold text-gray-900 leading-snug">{member.name}</p>
+                <p className="text-xs text-gray-400 mt-1">{member.role}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
