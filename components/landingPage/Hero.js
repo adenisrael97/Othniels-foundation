@@ -89,8 +89,6 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Bottom fade to white so the stats strip connects cleanly */}
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-white to-transparent z-10 pointer-events-none" />
       </section>
 
       {/* ── Stats strip ── */}
